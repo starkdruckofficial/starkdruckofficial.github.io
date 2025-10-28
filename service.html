@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Service – Stark Druck</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<iframe src="header.html" style="border:none;width:100%;height:78px;"></iframe>
+
+<!-- Nur die gewünschte Überschrift -->
+<section class="section section--muted">
+  <div class="container">
+    <header class="section__head" style="margin-bottom:32px;">
+      <h1>Bedruckte Kleidungsartikel.</h1>
+    </header>
+    <!-- Hier werden die Produkte dynamisch eingefügt -->
+    <div id="product-mount"></div>
+  </div>
+</section>
+
+<!-- Anfrageformular -->
+<section class="section" id="anfrage">
+  <div class="container">
+    <header class="section__head">
+      <h2>Anfrage</h2>
+      <p class="lead">Beschreiben Sie kurz Ihr Projekt – wir melden uns zeitnah.</p>
+    </header>
+
+    <div class="contact">
+      <form action="https://formsubmit.co/starkdruckofficial@gmail.com" method="POST" enctype="multipart/form-data" class="form">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" id="service-hidden" name="service" value="">
+        <label class="field"><span>Ihr Projekt</span>
+          <textarea name="message" rows="6" placeholder="Auflage, Größen, Farbe(n), Druckposition(en), Material …" required></textarea>
+        </label>
+        <div class="form__row">
+          <label class="field"><span>Vorname</span><input type="text" name="firstName" required></label>
+          <label class="field"><span>Nachname</span><input type="text" name="lastName" required></label>
+        </div>
+        <label class="field"><span>E-Mail</span><input type="email" name="email" required></label>
+        <label class="field"><span>Datei anhängen (optional)</span><input type="file" name="attachment"></label>
+        <button type="submit" class="btn btn--primary">Anfrage senden</button>
+      </form>
+
+      <aside class="contact__info">
+        <div class="info-card">
+          <h3>Kontakt</h3>
+          <p><strong>E-Mail:</strong><br> starkdruckofficial@gmail.com</p>
+          <p class="lead">Wir prüfen Ihre Daten kostenlos vor dem Druck.</p>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<iframe src="footer.html" style="border:none;width:100%;height:100px;"></iframe>
+
+<!-- Seiten-spezifische Styles (kleiner Block, rest in style.css) -->
+<style>
+  .product-list { display: grid; gap: 16px; }
+  .product-card {
+    display: grid;
+    grid-template-columns: 1fr 420px; /* Inhalt links, Bild rechts */
+    gap: 24px;
+    align-items: start;
+  }
+  .product-card__media img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 1px solid var(--line);
+    background: #fff;
+  }
+  .product-extra {
+    margin-top: 14px;
+    padding: 12px;
+    background: #f9f9f9;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    font-size: .95rem;
+    color: var(--text-dim);
+  }
+  .product-extra ul { margin:0; padding-left: 18px; }
+  .product-extra li { margin: 4px 0; }
+
+  /* Swatches + Preistabelle (nutzt deine Farben/Abstände) */
+  .swatches {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 10px; margin: 10px 0 12px;
+  }
+  .swatch { display: grid; grid-template-columns: 32px 1fr; align-items: center; gap: 8px;
+    background:#fff; border:1px solid var(--line); border-radius:12px; padding:8px; cursor:pointer; }
+  .swatch input { display: none; }
+  .swatch__dot { width:24px; height:24px; border-radius:50%; border:2px solid #ddd; box-shadow: inset 0 0 0 2px rgba(255,255,255,.6); }
+  .swatch__label { font-size:.95rem; }
+  .swatch:hover { border-color: var(--orange); }
+  .swatch input:checked + .swatch__dot { box-shadow: 0 0 0 3px rgba(255,122,0,.25); }
+  .swatch input:checked ~ .swatch__label { font-weight: 600; }
+
+  .price-table { width:100%; border-collapse:collapse; background:#fff; border:1px solid var(--line); border-radius:12px; overflow:hidden; }
+  .price-table th, .price-table td { padding:10px 12px; border-bottom:1px solid var(--line); text-align:left; }
+  .price-table thead th { background: linear-gradient(135deg, var(--orange), var(--orange-2)); color:#fff; }
+  .price-table tbody tr:last-child td { border-bottom:0; }
+  .price-table tbody tr:hover { background:#fff7f0; }
+  .price-note { margin:6px 2px 0; color:var(--text-soft); font-size:.92rem; }
+
+  @media (max-width: 900px) {
+    .product-card { grid-template-columns: 1fr; }
+    .product-card__media img { max-height: 240px; }
+  }
+</style>
+
+<script>
+  (async function () {
+    const $ = (id) => document.getElementById(id);
+    const esc = (s) => String(s||'').replace(/[&<>"]/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[m]));
+    const slugify = (str='') => {
+      let s = decodeURIComponent(String(str)).trim().toLowerCase();
+      s = s.replace(/ä/g,"ae").replace(/ö/g,"oe").replace(/ü/g,"ue").replace(/ß/g,"ss");
+      s = s.normalize('NFD').replace(/[\u0300-\u036f]/g,'');
+      s = s.replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'').replace(/--+/g,'-');
+      return s;
+    };
+
+    const mount = $("product-mount");
+    mount.innerHTML = '<div class="card"><p>Lade Produkte…</p></div>';
+
+    const rawParam = new URLSearchParams(location.search).get('service') || 'kleidung';
+    const paramSlug = slugify(rawParam);
+
+    // JSON laden
+    let data;
+    try {
+      const res = await fetch('data/services.json?v=' + Date.now(), { cache: 'no-store' });
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      data = await res.json();
+    } catch (e) {
+      mount.innerHTML = '<div class="card"><p>Die Produktdaten konnten nicht geladen werden. Tipp: Seite über http:// localhost starten.</p></div>';
+      return;
+    }
+
+    const list = Array.isArray(data.services) ? data.services : [];
+    let svc = list.find(s => slugify(s.slug) === paramSlug) || list.find(s => slugify(s.title) === paramSlug);
+    if (!svc) {
+      mount.innerHTML = '<div class="card"><p>Service nicht gefunden. Bitte wählen Sie einen Service über die Übersicht.</p></div>';
+      return;
+    }
+
+    // Produkte rendern (untereinander), Bild rechts
+    const products = Array.isArray(svc.products) ? svc.products : [];
+    if (!products.length) {
+      mount.innerHTML = '<div class="card"><p>Für diesen Service sind noch keine Produkte hinterlegt.</p></div>';
+      return;
+    }
+
+    function renderColorSwatches(colors) {
+      if (!Array.isArray(colors) || !colors.length) return '';
+      const group = 'color-' + Math.random().toString(36).slice(2,7);
+      return `
+          <div class="swatches" role="radiogroup" aria-label="Farbe wählen">
+            ${colors.map((c,i) => {
+        const name = typeof c === 'object' ? (c.name || '') : String(c);
+        const hex  = typeof c === 'object' ? (c.hex || '') : '';
+        return `
+                <label class="swatch" title="${esc(name)}">
+                  <input type="radio" name="${group}" ${i===0?'checked':''} value="${esc(name)}">
+                  <span class="swatch__dot" style="background:${hex || '#eee'}"></span>
+                  <span class="swatch__label">${esc(name)}</span>
+                </label>
+              `;
+      }).join('')}
+          </div>`;
+    }
+
+    function renderPriceTable(rows) {
+      if (!Array.isArray(rows) || !rows.length) return '';
+      return `
+          <div class="price-table-wrap">
+            <table class="price-table" aria-label="Preistabelle">
+              <thead><tr><th>Menge</th><th>1 Druckposition</th><th>2 Druckpositionen</th></tr></thead>
+              <tbody>
+                ${rows.map(r => `
+                  <tr>
+                    <td>${esc(r.qty)}</td>
+                    <td>${esc(r.onePos)}</td>
+                    <td>${esc(r.twoPos)}</td>
+                  </tr>
+                `).join('')}
+              </tbody>
+            </table>
+            <p class="price-note">Alle Preise inkl. MwSt., zzgl. Versand. Staffelpreise gelten pro Motiv.</p>
+          </div>`;
+    }
+
+    function renderProperties(props) {
+      if (!Array.isArray(props) || !props.length) return '';
+      // props-Elemente können entweder Strings oder {label, value} Objekte sein
+      const items = props.map(p => {
+        if (typeof p === 'string') return `<li>${p}</li>`;
+        const label = (p.label ?? '').toString();
+        const value = (p.value ?? '').toString();
+        return `<li><strong>${label}:</strong> ${value}</li>`;
+      }).join('');
+      return `
+      <div class="product-props">
+        <h4>Eigenschaften</h4>
+        <ul>${items}</ul>
+      </div>
+    `;
+    }
+
+    function productCard(p) {
+      const name = (p.name || 'Produkt');
+      const img = (p.image || '').toString();
+
+      return `
+      <article class="card product-card">
+        <div class="product-card__content">
+          <h3>${name}</h3>
+          ${p.description ? `<p class="lead">${p.description}</p>` : ''}
+
+          ${renderColorSwatches(p.colors)}
+          ${renderPriceTable(p.priceTable)}
+
+          <div class="btn-row">
+            <a class="btn btn--primary" href="#anfrage"
+               onclick="document.getElementById('service-hidden').value='${name}';">
+              Anfragen
+            </a>
+          </div>
+        </div>
+
+        <div class="product-card__media">
+          <div class="media-wrap">
+            ${img
+              ? `<img src="${img}" alt="${name}"
+                     onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+                     style="width:100%;height:auto;max-height:300px;object-fit:cover;border-radius:12px;border:1px solid var(--line);background:#fff;">`
+              : ``
+      }
+            <div class="img-placeholder" style="${img ? 'display:none' : 'display:flex'}">
+              <span class="ph-icon">🖼️</span>
+              <span>Produktbild folgt</span>
+            </div>
+          </div>
+
+          <!-- Eigenschaften unter dem Bild -->
+          ${renderProperties(p.properties)}
+
+          <!-- (Optionaler) Zusatzblock – lassen wir vorerst weg, da Eigenschaften jetzt da sind -->
+        </div>
+      </article>
+    `;
+    }
+
+    mount.className = 'product-list';
+    mount.innerHTML = products.map(productCard).join('');
+  })();
+</script>
+</body>
+</html>

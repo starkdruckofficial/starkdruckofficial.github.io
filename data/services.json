@@ -1,0 +1,245 @@
+{
+  "services": [
+    {
+      "slug": "broschueren-flyer",
+      "title": "Broschüren & Flyer",
+      "summary": "Flyer, Folder und Broschüren in Premium-Qualität für Events, Messen & Versand.",
+      "heroImage": "images/services/broschueren.jpg",
+      "badges": ["Schnelle Produktion", "Beratung inklusive", "Nachhaltige Papiere"],
+      "products": [
+        {
+          "name": "Flyer",
+          "summary": "DIN A6–A4, 135–300 g/m², matt/glänzend",
+          "image": "images/products/flyer.jpg",
+          "priceFrom": "ab 29 €",
+          "specs": ["Mengen: 100–50.000", "4/4-farbig CMYK", "Klimaneutral optional"]
+        },
+        {
+          "name": "Broschüre (Klammerheftung)",
+          "summary": "8–64 Seiten, DIN A5/A4",
+          "image": "images/products/broschuere.jpg",
+          "priceFrom": "ab 89 €",
+          "specs": ["Innenteil 90–170 g/m²", "Umschlag bis 300 g/m²", "Softtouch optional"]
+        }
+      ]
+    },
+    {
+      "slug": "plakate",
+      "title": "Plakate",
+      "summary": "Starke Wirkung im Großformat – Indoor und Outdoor.",
+      "heroImage": "images/services/plakate.jpg",
+      "badges": ["UV-beständig", "Express möglich"],
+      "products": [
+        {
+          "name": "Plakat A1",
+          "summary": "DIN A1, brillanter Farbdruck",
+          "image": "images/products/plakat-a1.jpg",
+          "priceFrom": "ab 9 €",
+          "specs": ["Blueback optional", "Outdoor geeignet"]
+        }
+      ]
+    },
+    {
+      "slug": "rollups",
+      "title": "Roll-ups",
+      "summary": "Mobile Messe-Systeme mit hochwertigem Druck und stabiler Mechanik.",
+      "heroImage": "images/services/rollups.jpg",
+      "badges": ["Transporttasche inkl.", "Schneller Aufbau"],
+      "products": [
+        {
+          "name": "Roll-up Standard 85×200",
+          "summary": "Leicht & robust",
+          "image": "images/products/rollup-85x200.jpg",
+          "priceFrom": "ab 69 €",
+          "specs": ["B1-zertifiziert", "Anti-Curl Film"]
+        }
+      ]
+    },
+    {
+      "slug": "visitenkarten",
+      "title": "Visitenkarten",
+      "summary": "Edle Haptik, starke Veredelungen: Prägung, Spotlack, Softtouch.",
+      "heroImage": "images/services/visitenkarten.jpg",
+      "badges": ["Sonderfarben", "Veredelungen"],
+      "products": [
+        {
+          "name": "Standard 350 g/m²",
+          "summary": "Matt/Glanz, 4/4-farbig",
+          "image": "images/products/vk-standard.jpg",
+          "priceFrom": "ab 19 €",
+          "specs": ["Ecken rund optional", "Express möglich"]
+        }
+      ]
+    },
+    {
+      "slug": "aufkleber",
+      "title": "Aufkleber",
+      "summary": "Individuelle Sticker, konturgeschnitten, witterungsbeständig.",
+      "heroImage": "images/services/aufkleber.jpg",
+      "badges": ["Outdoor-tauglich", "Kleinstmengen"],
+      "products": [
+        {
+          "name": "Sticker Bogenware",
+          "summary": "Freie Formen, UV-beständig",
+          "image": "images/products/sticker-bogen.jpg",
+          "priceFrom": "ab 15 €",
+          "specs": ["matt/glänzend", "konturgeschnitten"]
+        }
+      ]
+    },
+    {
+      "slug": "stifte",
+      "title": "Stifte",
+      "summary": "Markenstifte mit Ihrem Logo – vom Klassiker bis Eco-Variante.",
+      "heroImage": "images/services/stifte.jpg",
+      "badges": ["Einzelnamensdruck", "Schnelle Lieferung"],
+      "products": [
+        {
+          "name": "Kugelschreiber Classic",
+          "summary": "Druck 1–3 Farben oder Digital",
+          "image": "images/products/pen-classic.jpg",
+          "priceFrom": "ab 0,49 € / Stk.",
+          "specs": ["ab 100 Stk.", "Schnellservice möglich"]
+        }
+      ]
+    },
+    {
+      "slug": "taschen",
+      "title": "Taschen",
+      "summary": "Baumwoll- & Einkaufstaschen als nachhaltige Werbeträger.",
+      "heroImage": "images/services/taschen.jpg",
+      "badges": ["Bio-Baumwolle", "Mehrweg"],
+      "products": [
+        {
+          "name": "Baumwolltasche",
+          "summary": "Siebdruck 1–3 Farben",
+          "image": "images/products/tote.jpg",
+          "priceFrom": "ab 1,99 €",
+          "specs": ["lange Henkel", "viele Farben"]
+        }
+      ]
+    },
+    {
+      "slug": "tassen",
+      "title": "Tassen",
+      "summary": "Personalisierte Becher & Tassen – spülmaschinenfest verfügbar.",
+      "heroImage": "images/services/tassen.jpg",
+      "badges": ["Vollfarb-Druck", "Spülmaschinenfest"],
+      "products": [
+        {
+          "name": "Klassische Keramiktasse",
+          "summary": "weiß, 330 ml",
+          "image": "images/products/mug-classic.jpg",
+          "priceFrom": "ab 5,90 €",
+          "specs": ["Allover optional", "Einzelpersonalisierung"]
+        }
+      ]
+    },
+    {
+      "slug": "kleidung",
+      "title": "Kleidung",
+      "summary": "Textildruck & Veredelung für Teams, Vereine und Merch.",
+      "heroImage": "images/services/kleidung.jpg",
+      "badges": ["Siebdruck", "DTF/DTG", "Stickerei"],
+      "products": [
+        {
+          "name": "B&C E190 T-Shirt (TU03T)",
+          "model": "TU03T",
+          "image": "",
+          "description": "Klassisches Rundhals-Shirt, 100% Baumwolle, 185 g/m², einlaufvorbehandelt.",
+          "colors": [
+            { "name": "Apricot", "hex": "#f5b185" },
+            { "name": "Ash (Heather)", "hex": "#e3e3e3" },
+            { "name": "Atoll", "hex": "#2eb7c5" },
+            { "name": "Black", "hex": "#000000" },
+            { "name": "Bottle Green", "hex": "#145c37" },
+            { "name": "Brown", "hex": "#4b2f24" },
+            { "name": "Burgundy", "hex": "#6e2632" },
+            { "name": "Chocolate", "hex": "#5a3c2e" },
+            { "name": "Cobalt Blue", "hex": "#0033a0" },
+            { "name": "Dark Grey (Solid)", "hex": "#4c4c4c" },
+            { "name": "Diva Blue", "hex": "#1162b2" },
+            { "name": "Fire Red", "hex": "#d02029" },
+            { "name": "Gold", "hex": "#d4a017" },
+            { "name": "Kelly Green", "hex": "#3aa655" },
+            { "name": "Millennial Lilac", "hex": "#c3b1e1" },
+            { "name": "Millennial Mint", "hex": "#a8e6cf" },
+            { "name": "Natural", "hex": "#f4f1e0" },
+            { "name": "Navy", "hex": "#0b1d3a" },
+            { "name": "Navy Blue", "hex": "#152b57" },
+            { "name": "Orange", "hex": "#f37021" },
+            { "name": "Orchid Green", "hex": "#a4c639" },
+            { "name": "Orchid Pink", "hex": "#e59bd0" },
+            { "name": "Pacific Grey", "hex": "#b0b4b4" },
+            { "name": "Pixel Lime", "hex": "#d7e73f" },
+            { "name": "Radiant Purple", "hex": "#682b8b" },
+            { "name": "Red", "hex": "#e2001a" },
+            { "name": "Royal Blue", "hex": "#1747b8" },
+            { "name": "Sand", "hex": "#d8c9a7" },
+            { "name": "Sky Blue", "hex": "#7ec8e3" },
+            { "name": "Solar Yellow", "hex": "#ffec00" },
+            { "name": "Sorbet", "hex": "#fcbad3" },
+            { "name": "Sport Grey (Heather)", "hex": "#a8a8a8" },
+            { "name": "Stone Blue", "hex": "#7796a8" },
+            { "name": "Sunset Orange", "hex": "#ff7e42" },
+            { "name": "Swimming Pool", "hex": "#43c6db" },
+            { "name": "Urban Khaki", "hex": "#8a7b66" },
+            { "name": "Urban Orange", "hex": "#e35d27" },
+            { "name": "Urban Purple", "hex": "#774878" },
+            { "name": "Used Black", "hex": "#2d2d2d" },
+            { "name": "White", "hex": "#ffffff" }
+          ],
+          "priceTable": [
+            { "qty": "1–6",  "onePos": "23 €", "twoPos": "27 €" },
+            { "qty": "7–20", "onePos": "21 €", "twoPos": "25 €" },
+            { "qty": "> 20", "onePos": "19 €", "twoPos": "23 €" }
+          ],
+          "properties": [
+            { "label": "Material", "value": "100% Baumwolle (185 g/m²)" },
+            { "label": "Schnitt", "value": "Rundhals, Set-In, kurzarm" },
+            { "label": "Größen", "value": "XS–5XL (je nach Farbe)" },
+            { "label": "Pflege", "value": "40 °C waschbar, trocknergeeignet" },
+            { "label": "Zertifikate", "value": "OEKO-TEX® 100, Faire Arbeitsbedingungen" }
+          ]
+        },
+        {
+          "name": "Unisex Organic Cotton Relaxed Fit T-Shirt (SW391)",
+          "model": "SW391",
+          "image": "",
+          "description": "Bio-Baumwolle, 215 g/m² (White: 205 g/m²), relaxed fit, OEKO-TEX® 100.",
+          "colors": [
+            { "name": "Blue Lilac",   "hex": "#8aa3d9" },
+            { "name": "Bordeaux",     "hex": "#5a1a2a" },
+            { "name": "Deep Black",   "hex": "#000000" },
+            { "name": "Gunmetal",     "hex": "#5a5f66" },
+            { "name": "Heather Grey", "hex": "#b1b5ba" },
+            { "name": "Natural",      "hex": "#f4f1e0" },
+            { "name": "Nature Green", "hex": "#3a7d3a" },
+            { "name": "Pistachio",    "hex": "#a8e6a3" },
+            { "name": "True Navy",    "hex": "#0b1d3a" },
+            { "name": "White",        "hex": "#ffffff" }
+          ],
+          "priceTable": [
+            { "qty": "1–6",  "onePos": "25 €", "twoPos": "29 €" },
+            { "qty": "7–20", "onePos": "23 €", "twoPos": "27 €" },
+            { "qty": "> 20", "onePos": "21 €", "twoPos": "25 €" }
+          ],
+          "properties": [
+            { "label": "Material",        "value": "Jersey, 100% Baumwolle (Bio)" },
+            { "label": "Grammatur",       "value": "215 g/m² (White: 205 g/m²)" },
+            { "label": "Zertifizierung",  "value": "Bio-Baumwolle, OEKO-TEX® STANDARD 100: 25.HEG.95814 Hohenstein" },
+            { "label": "Ausschnitt",      "value": "Rundhals, Nackenband" },
+            { "label": "Ärmel",           "value": "Kurzarm, Set-In" },
+            { "label": "Farbigkeit",      "value": "1-farbig; melierte Varianten verfügbar" },
+            { "label": "Pflege",          "value": "40 °C waschbar; nicht im Trockner; Bügeln mittel (max. 150 °C)" },
+            { "label": "Funktion",        "value": "Atmungsaktiv" },
+            { "label": "Label",           "value": "Heraustrennbares Label" },
+            { "label": "Passform",        "value": "Regular / Relaxed" },
+            { "label": "Größenlauf",      "value": "S, M, L, XL, XXL" }
+          ]
+        }
+      ]
+    }
+
+  ]
+}

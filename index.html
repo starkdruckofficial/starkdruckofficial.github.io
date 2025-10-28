@@ -2,113 +2,130 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Stark Druck</title>
-    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 
-<iframe src="header.html" style="border: none; width: 100%; height: 70px;"></iframe>
+<iframe src="header.html" style="border:none;width:100%;height:78px;"></iframe>
 
-<section class="intro-section">
-    <div class="intro-container">
-        <div class="intro-text">
-            <span class="tagline">ENTDECKEN SIE UNS</span>
-            <h1>Drucken Sie Ihre Ideen mit Stark Druck – schnell, zuverlässig und hochwertig</h1>
-            <p>
-                Ob T-Shirts, Pullover, Tassen, Baumwolltaschen oder klassische Druckprodukte wie Broschüren, Geschäftsausstattung und großformatige Werbung – Stark Druck bringt Ihre Ideen aufs Material.
-                Verlassen Sie sich auf modernste Technik, persönliche Beratung und ein starkes Team. Gemeinsam setzen wir Ihre Druckprojekte hochwertig und zuverlässig um.
-            </p>
-            <div class="buttons">
-                <a href="#" class="btn btn-primary">Über uns</a>
-                <a href="#" class="btn btn-secondary">Jetzt bestellen</a>
+<!-- Intro -->
+<section class="intro">
+    <div class="container intro__wrap">
+        <div>
+            <span class="tag">ENTDECKEN SIE UNS</span>
+            <h1>Drucken Sie Ihre Ideen – schnell, zuverlässig und hochwertig</h1>
+            <p>Ob Kleidung, Tassen, Taschen oder klassische Druckprodukte wie Broschüren, Visitenkarten und großformatige Werbung – wir bringen Ihre Ideen aufs Material.</p>
+            <div class="btn-row">
+                <a href="#" class="btn btn--primary">Über uns</a>
+                <a href="#kontakt" class="btn btn--ghost">Jetzt anfragen</a>
+            </div>
+
+            <!-- kleine Vertrauenselemente -->
+            <div class="trust">
+                <span class="badge">🧑‍💼 Beratung durch Experten</span>
+                <span class="badge">🛡️ Kein Druck ohne Datencheck</span>
+                <span class="badge">💶 Kompetitive Preise</span>
+                <span class="badge">🤝 Unternehmensgewinn fließt in gemeinnützige Projekte</span>
+                <span class="badge">🏭 Gedruckt wird in Franken</span>
+            </div>
+
+            <!-- Mini-Stats -->
+            <div class="stats">
+                <div class="stat">
+                    <strong>⏳ Montag - Samstag</strong>
+                    <span>Support</span>
+                </div>
+                <div class="stat">
+                    <strong>🖨️ 5 Werktage</strong>
+                    <span>Produktionszeit</span>
+                </div>
+                <div class="stat">
+                    <strong>📅 Seit 2025</strong>
+                    <span>Gegründet</span>
+                </div>
             </div>
         </div>
-        <div class="intro-image">
-            <img src="images/image_tote_bag.png" alt="Stark Druck Bild Tote Bag" />
-        </div>
-    </div>
-</section>
-
-<section class="work-section">
-    <div class="work-container">
-        <h2 class="work-title">Unsere Services</h2>
-        <p class="work-description">
-            Entdecken Sie eine Auswahl unserer hochwertigen Druckprojekte – mit Liebe zum Detail und einem starken Gespür für Qualität und Individualität.
-        </p>
-        <div class="work-items">
-            <div class="work-item">
-                <img src="images/picture_tshirt.png" alt="T-Shirt" />
-                <h3>Kleidung</h3>
-                <p>T-Shirts, Pullower, Hoodies</p>
-            </div>
-            <div class="work-item">
-                <img src="images/picture_tote_bag.png" alt="Baumwolltasche" />
-                <h3>Gegenstände</h3>
-                <p>Baumwolltaschen, Einkaufstaschen</p>
-            </div>
-            <div class="work-item">
-                <img src="images/picture_mug.png" alt="Tasse" />
-                <h3>Für Unternehmen</h3>
-                <p>Tassen, Gläser, Teller</p>
-            </div>
-            <div class="work-item">
-                <img src="images/picture_etc.png" alt="Sticker" />
-                <h3>Und vieles mehr!</h3>
-                <p>wie Sticker oder Brettspiele</p>
-            </div>
+        <div class="intro__media">
+            <img src="images/image_tote_bag.png" alt="Stark Druck Beispiel – Baumwolltasche" />
         </div>
     </div>
 </section>
 
-<section class="contact-section">
-    <div class="contact-container">
-        <h2>Kontaktieren Sie uns</h2>
-        <p class="subtext">
-            Bereit für Ihr nächstes Druckprojekt? Kontaktieren Sie uns für ein persönliches Angebot und Beratung.
-        </p>
+<!-- Services -->
+<section id="services" class="section section--muted">
+    <div class="container">
+        <header class="section__head">
+            <h2>Unsere Services</h2>
+            <p class="lead">Wählen Sie aus neun starken Produktkategorien – jede Karte führt zur Detailseite.</p>
+        </header>
 
-        <div class="contact-content">
-            <form action="https://formsubmit.co/starkdruckofficial@gmail.com" method="POST" enctype="multipart/form-data" class="contact-form">
-                <div class="form-row">
-                    <div class="form-group">
-                        <label>Vorname</label>
-                        <input type="text" name="firstName" required />
-                    </div>
-                    <div class="form-group">
-                        <label>Nachname</label>
-                        <input type="text" name="lastName" required />
-                    </div>
-                </div>
+        <div class="grid grid--3">
+            <a class="card service" href="service.html?service=Brosch%C3%BCren%20%26%20Flyer" data-emoji="📖">
+                <div class="service__thumb"></div><h3>Broschüren &amp; Flyer</h3><p>Infomaterial in Profiqualität</p>
+            </a>
+            <a class="card service" href="service.html?service=Plakate" data-emoji="🖼️">
+                <div class="service__thumb"></div><h3>Plakate</h3><p>Groß in Wirkung</p>
+            </a>
+            <a class="card service" href="service.html?service=Roll-ups" data-emoji="📣">
+                <div class="service__thumb"></div><h3>Roll-ups</h3><p>Mobil & aufmerksamkeitsstark</p>
+            </a>
+            <a class="card service" href="service.html?service=Visitenkarten" data-emoji="💼">
+                <div class="service__thumb"></div><h3>Visitenkarten</h3><p>Starker erster Eindruck</p>
+            </a>
+            <a class="card service" href="service.html?service=Aufkleber" data-emoji="🏷️">
+                <div class="service__thumb"></div><h3>Aufkleber</h3><p>Individuell & witterungsfest</p>
+            </a>
+            <a class="card service" href="service.html?service=Stifte" data-emoji="✒️">
+                <div class="service__thumb"></div><h3>Stifte</h3><p>Werbung zum Mitnehmen</p>
+            </a>
+            <a class="card service" href="service.html?service=Taschen" data-emoji="👜">
+                <div class="service__thumb"></div><h3>Taschen</h3><p>Baumwolle & Einkauf</p>
+            </a>
+            <a class="card service" href="service.html?service=Tassen" data-emoji="☕">
+                <div class="service__thumb"></div><h3>Tassen</h3><p>Personalisierte Becher</p>
+            </a>
+            <a class="card service" href="service.html?service=Kleidung" data-emoji="👕">
+                <div class="service__thumb"></div><h3>Kleidung</h3><p>T-Shirts, Hoodies, Workwear</p>
+            </a>
+        </div>
+    </div>
+</section>
 
-                <div class="form-group">
-                    <label>E-Mail</label>
-                    <input type="email" name="email" required />
-                </div>
+<!-- Kontakt -->
+<section class="section" id="kontakt">
+    <div class="container">
+        <header class="section__head">
+            <h2>Kontaktieren Sie uns</h2>
+            <p class="lead">Beschreiben Sie kurz Ihr Projekt – wir melden uns zeitnah.</p>
+        </header>
 
-                <div class="form-group">
-                    <label>Ihr Anliegen</label>
-                    <textarea name="message" rows="5" required></textarea>
-                </div>
-
-                <div class="form-group">
-                    <label>Datei anhängen (optional)</label>
-                    <input type="file" name="attachment" />
-                </div>
-
-                <button type="submit">Nachricht senden</button>
+        <div class="contact">
+            <form action="https://formsubmit.co/starkdruckofficial@gmail.com" method="POST" enctype="multipart/form-data" class="form">
                 <input type="hidden" name="_captcha" value="false">
+                <div class="form__row">
+                    <label class="field"><span>Vorname</span><input type="text" name="firstName" required></label>
+                    <label class="field"><span>Nachname</span><input type="text" name="lastName" required></label>
+                </div>
+                <label class="field"><span>E-Mail</span><input type="email" name="email" required></label>
+                <label class="field"><span>Ihr Anliegen</span><textarea name="message" rows="5" required></textarea></label>
+                <label class="field"><span>Datei anhängen (optional)</span><input type="file" name="attachment"></label>
+                <button type="submit" class="btn btn--primary">Nachricht senden</button>
             </form>
 
-            <div class="contact-info">
-                <p><strong>E-Mail:</strong><br>
-                    starkdruckofficial@gmail.com</p>
-            </div>
+            <aside class="contact__info">
+                <div class="info-card">
+                    <h3>Kontakt</h3>
+                    <p><strong>E-Mail:</strong><br> starkdruckofficial@gmail.com</p>
+                    <div class="hr"></div>
+                    <p class="lead">Kostenloser Datencheck vor dem Druck.</p>
+                </div>
+            </aside>
         </div>
     </div>
 </section>
 
-<iframe src="footer.html" style="border: none; width: 100%; height: 100px;"></iframe>
-
+<iframe src="footer.html" style="border:none;width:100%;height:100px;"></iframe>
 </body>
 </html>

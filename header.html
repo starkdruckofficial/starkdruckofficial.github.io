@@ -1,18 +1,43 @@
-<link rel="stylesheet" href="css/header.css">
+<link rel="stylesheet" href="css/style.css" />
 <header class="site-header">
   <div class="container">
     <div class="logo">
-      <a href="/homepage" target="_top">
-        <img src="images/logo.svg" alt="Stark Druck Logo" />
+      <a href="index.html" target="_top" aria-label="Stark Druck – Startseite">
+        <img src="images/logo.svg" alt="Stark Druck Logo">
       </a>
     </div>
-    <nav class="nav" id="nav-menu">
+
+    <nav class="nav" id="nav" aria-label="Hauptnavigation">
       <ul>
-        <li><a href="#team">Das Team</a></li>
-        <li><a href="#standards">Qualitätsstandards</a></li>
-        <li><a href="#kontakt">Kontakt</a></li>
+        <li><a href="index.html#services" target="_top">Services</a></li>
+        <li><a href="index.html#kontakt" target="_top">Kontakt</a></li>
+        <li><a href="impressum.html" target="_top">Impressum</a></li>
+        <li><a href="datenschutz.html" target="_top">Datenschutz</a></li>
       </ul>
     </nav>
-    <button class="menu-toggle" id="menu-toggle">&#9776;</button>
+
+    <button class="menu-toggle" id="menuToggle" aria-controls="nav" aria-expanded="false">☰</button>
   </div>
 </header>
+
+<script>
+  // Mobile Menü Toggle (im iFrame-Header)
+  (function(){
+    const nav = document.getElementById('nav');
+    const btn = document.getElementById('menuToggle');
+    if(!nav || !btn) return;
+    btn.addEventListener('click', () => {
+      const open = nav.getAttribute('data-open') === 'true';
+      nav.setAttribute('data-open', String(!open));
+      btn.setAttribute('aria-expanded', String(!open));
+    });
+
+    // Aktiven Link markieren basierend auf Top-URL
+    try{
+      const topUrl = (window.top && window.top.location) ? window.top.location.href : location.href;
+      [...nav.querySelectorAll('a')].forEach(a=>{
+        if(topUrl.includes(a.getAttribute('href').replace('./',''))) a.classList.add('is-active');
+      });
+    }catch(e){}
+  })();
+</script>

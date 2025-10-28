@@ -1,10 +1,81 @@
-<link rel="stylesheet" href="css/footer.css">
-<footer class="main-footer">
-    <div class="footer-container">
-        <p>&copy; 2025 Stark Druck – Alle Rechte vorbehalten</p>
+<link rel="stylesheet" href="css/style.css" />
+<footer class="main-footer section" style="padding:24px 0;">
+    <div class="container footer-container">
+        <p style="margin:0;">&copy; 2025 Stark Druck – Alle Rechte vorbehalten</p>
+
         <div class="footer-links">
             <a href="impressum.html" target="_top">Impressum</a>
             <a href="datenschutz.html" target="_top">Datenschutzerklärung</a>
         </div>
+
+        <div class="footer-social">
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/starkdruckofficial/"
+               target="_blank"
+               rel="noopener"
+               aria-label="Instagram Stark Druck"
+               title="Instagram">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                     width="28" height="28" viewBox="0 0 24 24"
+                     fill="none" stroke="currentColor" stroke-width="2.4"
+                     stroke-linecap="round" stroke-linejoin="round"
+                     class="icon-instagram">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+            </a>
+
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/company/starkdruck"
+               target="_blank"
+               rel="noopener"
+               aria-label="LinkedIn Stark Druck"
+               title="LinkedIn">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                     width="28" height="28" viewBox="0 0 24 24"
+                     fill="none" stroke="currentColor" stroke-width="2.4"
+                     stroke-linecap="round" stroke-linejoin="round"
+                     class="icon-linkedin">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+            </a>
+        </div>
     </div>
+
+    <style>
+        .footer-social {
+            display: flex;
+            align-items: center;
+            gap: 22px;
+        }
+
+        .footer-social a {
+            color: var(--text);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 52px;
+            height: 52px;
+            border: 2px solid var(--line);
+            border-radius: 50%;
+            background: #fff; /* heller Hintergrund für mehr Kontrast */
+            transition: all .3s ease;
+            box-shadow: 0 0 0 rgba(0,0,0,0);
+        }
+
+        .footer-social a:hover {
+            color: var(--orange);
+            border-color: var(--orange);
+            transform: translateY(-3px);
+            box-shadow: 0 6px 18px rgba(255, 122, 0, 0.25);
+        }
+
+        .footer-social svg {
+            width: 30px;
+            height: 30px;
+        }
+    </style>
 </footer>
