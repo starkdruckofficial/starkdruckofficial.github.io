@@ -14,7 +14,24 @@
   <div class="container">
     <header class="section__head" style="margin-bottom:32px;">
       <h1>Bedruckte Kleidungsartikel.</h1>
+
+      <!-- Filter-Buttons mit Emoji-Icons -->
+      <div class="filter-toggle" id="product-filter">
+        <button class="filter-btn is-active" data-filter="all">
+          <span class="filter-icon"></span>
+          <span>Alle</span>
+        </button>
+        <button class="filter-btn" data-filter="tshirt">
+          <span class="filter-icon">👕</span>
+          <span>T-Shirts</span>
+        </button>
+        <button class="filter-btn" data-filter="hoodie">
+          <span class="filter-icon">🧥</span>
+          <span>Hoodies</span>
+        </button>
+      </div>
     </header>
+
     <!-- Hier werden die Produkte dynamisch eingefügt -->
     <div id="product-mount"></div>
   </div>
@@ -109,6 +126,40 @@
   .price-table tbody tr:hover { background:#fff7f0; }
   .price-note { margin:6px 2px 0; color:var(--text-soft); font-size:.92rem; }
 
+  /* Filter-Buttons (Emoji-Icons) */
+  .filter-toggle {
+    display: inline-flex;
+    gap: 10px;
+    margin-top: 18px;
+    flex-wrap: wrap;
+  }
+  .filter-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 18px;
+    font-size: 1rem;
+    border-radius: 12px;
+    border: 1px solid var(--line);
+    background: #fff;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+  .filter-btn:hover {
+    border-color: var(--orange);
+    background: #fff7ef;
+  }
+  .filter-btn.is-active {
+    background: var(--orange);
+    border-color: var(--orange);
+    color: #fff;
+    font-weight: 600;
+  }
+  .filter-icon {
+    font-size: 1.25rem;
+    line-height: 1;
+  }
+
   @media (max-width: 900px) {
     .product-card { grid-template-columns: 1fr; }
     .product-card__media img { max-height: 240px; }
@@ -149,6 +200,16 @@
     if (!svc) {
       mount.innerHTML = '<div class="card"><p>Service nicht gefunden. Bitte wählen Sie einen Service über die Übersicht.</p></div>';
       return;
+    }
+
+    // Filter nur bei Kleidung anzeigen
+    const filterEl = document.getElementById('product-filter');
+    const isClothing =
+            slugify(svc.slug || '') === 'kleidung' ||
+            slugify(svc.title || '') === 'kleidung';
+
+    if (!isClothing && filterEl) {
+      filterEl.style.display = 'none';
     }
 
     // Produkte rendern (untereinander), Bild rechts
@@ -241,8 +302,7 @@
               ? `<img src="${img}" alt="${name}"
                      onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
                      style="width:100%;height:auto;max-height:300px;object-fit:cover;border-radius:12px;border:1px solid var(--line);background:#fff;">`
-              : ``
-      }
+              : ``}
             <div class="img-placeholder" style="${img ? 'display:none' : 'display:flex'}">
               <span class="ph-icon">🖼️</span>
               <span>Produktbild folgt</span>
@@ -259,8 +319,52 @@
     }
 
     mount.className = 'product-list';
-    mount.innerHTML = products.map(productCard).join('');
+
+    /* --- Filter-Logik (T-Shirts / Hoodies / alle) --- */
+    let currentFilter = 'all';
+
+    function filterProducts(list, filter) {
+      if (filter === 'all') return list;
+      return list.filter(function (p) {
+        const cat = (p.category || '').toString().toLowerCase();
+        return cat === filter;
+      });
+    }
+
+    function renderProducts() {
+      const visible = filterProducts(products, currentFilter);
+      if (!visible.length) {
+        mount.innerHTML = '<div class="card"><p>Keine Produkte in dieser Kategorie verfügbar.</p></div>';
+        return;
+      }
+      mount.innerHTML = visible.map(productCard).join('');
+    }
+
+    const filterRoot = document.getElementById('product-filter');
+    if (filterRoot) {
+      filterRoot.addEventListener('click', function (ev) {
+        const btn = ev.target.closest('button[data-filter]');
+        if (!btn) return;
+
+        currentFilter = btn.getAttribute('data-filter') || 'all';
+
+        const buttons = filterRoot.querySelectorAll('button[data-filter]');
+        buttons.forEach(function (b) {
+          if (b === btn) {
+            b.classList.add('is-active');
+          } else {
+            b.classList.remove('is-active');
+          }
+        });
+
+        renderProducts();
+      });
+    }
+
+    // initial
+    renderProducts();
   })();
 </script>
+
 </body>
 </html>

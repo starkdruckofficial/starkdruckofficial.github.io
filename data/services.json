@@ -127,11 +127,32 @@
       "badges": ["Vollfarb-Druck", "Spülmaschinenfest"],
       "products": [
         {
-          "name": "Klassische Keramiktasse",
-          "summary": "weiß, 330 ml",
-          "image": "images/products/mug-classic.jpg",
-          "priceFrom": "ab 5,90 €",
-          "specs": ["Allover optional", "Einzelpersonalisierung"]
+          "name": "Keramik-Tasse 350 ml (Egotier 93990)",
+          "summary": "Weiße Keramiktasse, 350 ml, ideal für Sublimationsdruck.",
+          "image": "",
+          "priceFrom": "ab 1,34 €",
+          "specs": [
+            "Füllmenge: 350 ml",
+            "Farbe: Weiß",
+            "Geeignet für Sublimationsdruck",
+            "Spülmaschinengeeignet (mind. 250 Waschgänge, EN12875-1)",
+            "Geliefert in Geschenkschachtel"
+          ],
+          "description": "Weiße Keramiktasse (350 ml) für hochwertigen Sublimationsdruck. Spülmaschinengeeignet und getestet für mindestens 250 Waschgänge gemäß EN12875-1. Lieferung in einer Geschenkschachtel – ideal für Werbegeschenke, Merch und personalisierte Designs.",
+          "colors": [
+            { "name": "Weiß", "hex": "#ffffff" }
+          ],
+          "properties": [
+            { "label": "Modell", "value": "Egotier 93990" },
+            { "label": "Material", "value": "Keramik" },
+            { "label": "Füllmenge", "value": "350 ml" },
+            { "label": "Farbe", "value": "Weiß" },
+            { "label": "Gewicht", "value": "ca. 336 g" },
+            { "label": "Druckverfahren", "value": "Geeignet für Sublimationsdruck (im Preis einkalkuliert)" },
+            { "label": "Spülmaschine", "value": "Spülmaschinengeeignet, mind. 250 Waschgänge gemäß EN12875-1" },
+            { "label": "Verpackung", "value": "Einzeln in Geschenkschachtel" },
+            { "label": "Bestand", "value": "Hoher Lagerbestand" }
+          ]
         }
       ]
     },
@@ -143,8 +164,9 @@
       "badges": ["Siebdruck", "DTF/DTG", "Stickerei"],
       "products": [
         {
-          "name": "B&C E190 T-Shirt (TU03T)",
-          "model": "TU03T",
+          "name": "Standard T-Shirt Classic",
+          "model": "",
+          "category": "tshirt",
           "image": "",
           "description": "Klassisches Rundhals-Shirt, 100% Baumwolle, 185 g/m², einlaufvorbehandelt.",
           "colors": [
@@ -203,8 +225,9 @@
           ]
         },
         {
-          "name": "Unisex Organic Cotton Relaxed Fit T-Shirt (SW391)",
-          "model": "SW391",
+          "name": "Premium Bio T-Shirt",
+          "model": "",
+          "category": "tshirt",
           "image": "",
           "description": "Bio-Baumwolle, 215 g/m² (White: 205 g/m²), relaxed fit, OEKO-TEX® 100.",
           "colors": [
@@ -236,6 +259,101 @@
             { "label": "Label",           "value": "Heraustrennbares Label" },
             { "label": "Passform",        "value": "Regular / Relaxed" },
             { "label": "Größenlauf",      "value": "S, M, L, XL, XXL" }
+          ]
+        },
+        {
+          "name": "Premium Bio Hoodie",
+          "model": "",
+          "category": "hoodie",
+          "image": "",
+          "description": "Unisex Hoodie, 300 g/m², weiches, innen angerautes Fleece – ideal für Promotion, Freizeit & Teams.",
+          "colors": [
+            { "name": "Bottle Green", "hex": "#145c37" },
+            { "name": "Bright Blue", "hex": "#1e73be" },
+            { "name": "Bright Red", "hex": "#e82929" },
+            { "name": "Deep Black", "hex": "#000000" },
+            { "name": "Deep Navy", "hex": "#0b1d3a" },
+            { "name": "Kelly Green", "hex": "#3aa655" },
+            { "name": "White", "hex": "#ffffff" }
+          ],
+          "priceTable": [
+            { "qty": "1–6",  "onePos": "25 €", "twoPos": "29 €" },
+            { "qty": "7–20", "onePos": "23 €", "twoPos": "27 €" },
+            { "qty": "> 20", "onePos": "21 €", "twoPos": "25 €" }
+          ],
+          "properties": [
+            { "label": "Material", "value": "55% Bio-Baumwolle / 20% recycelte Baumwolle / 25% recycelter Polyester" },
+            { "label": "Grammatur", "value": "300 g/m²" },
+            { "label": "Zertifikate", "value": "Bio-Baumwolle, recycelte Baumwolle, recycelter Polyester, OEKO-TEX® STANDARD 100" },
+            { "label": "Kapuze", "value": "Doppellagige Kapuze mit Fleecefutter, Kordelzug mit silberfarbenen Ösen und Kordelenden" },
+            { "label": "Verarbeitung", "value": "Gekämmte Baumwolle, innen angerautes Fleece, 3-fädiges Garn" },
+            { "label": "Ärmel & Bund", "value": "Set-In-Ärmel, Rippbündchen an Ärmeln und Saum mit Elastan" },
+            { "label": "Passform", "value": "Unisex, großzügiger/regular Schnitt" },
+            { "label": "Größenlauf", "value": "S, M, L, XL, XXL, 3XL" },
+            { "label": "Pflege", "value": "40 °C waschbar, trocknergeeignet, Bügeln mittel (bis 150 °C)" },
+            { "label": "Label", "value": "Heraustrennbares Label – ideal für Rebranding" }
+          ]
+        },
+        {
+          "name": "Premium Warm Bio Hoodie",
+          "model": "",
+          "category": "hoodie",
+          "image": "",
+          "description": "Schwerer Organic Unisex Hoodie aus Bio- und Recycling-Baumwolle, 400 g/m², wasserabweisend – ideal für hochwertige Merch- & Team-Bekleidung.",
+          "colors": [
+            { "name": "Deep Black", "hex": "#000000" }
+          ],
+          "priceTable": [
+            { "qty": "1–6",  "onePos": "25 €", "twoPos": "29 €" },
+            { "qty": "7–20", "onePos": "23 €", "twoPos": "27 €" },
+            { "qty": "> 20", "onePos": "21 €", "twoPos": "25 €" }
+          ],
+          "properties": [
+            { "label": "Material", "value": "75% Baumwolle (Bio & recycelt) / 25% recycelter Polyester" },
+            { "label": "Grammatur", "value": "400 g/m²" },
+            { "label": "Zertifikate", "value": "Bio-Baumwolle, recycelte Baumwolle, recycelter Polyester, OEKO-TEX® STANDARD 100: 25.HEG.95814 Hohenstein" },
+            { "label": "Farbigkeit", "value": "1-farbig" },
+            { "label": "Funktion", "value": "Wasserabweisend" },
+            { "label": "Sweatshirt-Art", "value": "Unisex Hoodie" },
+            { "label": "Kapuze", "value": "Mit Kapuze" },
+            { "label": "Ärmel & Bund", "value": "Set-In-Ärmel mit Bündchen" },
+            { "label": "Verarbeitung", "value": "Gekämmte Baumwolle" },
+            { "label": "Größenlauf", "value": "XS, S, M, L, XL, XXL, 3XL" },
+            { "label": "Pflege", "value": "40 °C waschbar, trocknergeeignet, Bügeln mittel (bis 150 °C)" },
+            { "label": "Label", "value": "Heraustrennbares Label – ideal für Rebranding" }
+          ]
+        },
+        {
+          "name": "Super Premium Winter Hoodie",
+          "model": "",
+          "category": "hoodie",
+          "image": "",
+          "description": "Schwerer Oversized Hoodie aus 100% Baumwolle, 450 g/m², French Terry (nicht angeraut) – ideal für hochwertigen Streetwear-Look.",
+          "colors": [
+            { "name": "Black", "hex": "#000000" },
+            { "name": "Bright Red", "hex": "#e82929" },
+            { "name": "French Navy", "hex": "#0b1d3a" },
+            { "name": "Khaki", "hex": "#6b6f4f" },
+            { "name": "Mouse Grey (Solid)", "hex": "#7d7d7d" },
+            { "name": "White", "hex": "#ffffff" }
+          ],
+          "priceTable": [
+            { "qty": "1–6",  "onePos": "25 €", "twoPos": "29 €" },
+            { "qty": "7–20", "onePos": "23 €", "twoPos": "27 €" },
+            { "qty": "> 20", "onePos": "21 €", "twoPos": "25 €" }
+          ],
+          "properties": [
+            { "label": "Material", "value": "100% Baumwolle (French Terry, innen nicht angeraut)" },
+            { "label": "Grammatur", "value": "450 g/m²" },
+            { "label": "Passform", "value": "Oversize" },
+            { "label": "Zertifikate", "value": "Vegan, Faire Arbeitsbedingungen, OEKO-TEX® STANDARD 100: CQ 1094/1 IFHT" },
+            { "label": "Kapuze", "value": "Mit Kapuze" },
+            { "label": "Ärmel", "value": "Set-In" },
+            { "label": "Verarbeitung", "value": "French Terry (innen nicht angeraut)" },
+            { "label": "Ausschnitt", "value": "Mit Nackenband" },
+            { "label": "Pflege", "value": "60 °C waschbar; nicht im Trockner; Bügeln kalt (bis 110 °C)" },
+            { "label": "Label", "value": "Heraustrennbares Label – ideal für Rebranding" },
+            { "label": "Größenlauf", "value": "XS, S, M, L, XL, XXL" }
           ]
         }
       ]
