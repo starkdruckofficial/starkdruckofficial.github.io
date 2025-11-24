@@ -15,7 +15,7 @@
 <section class="section section--muted">
   <div class="container">
     <header class="section__head" style="margin-bottom:32px;">
-      <h1>Bedruckte Kleidungsartikel.</h1>
+      <h1 id="service-title">Service</h1>
 
       <!-- Filter-Buttons mit Emoji-Icons -->
       <div class="filter-toggle" id="product-filter">
@@ -88,8 +88,6 @@
   .product-card__media img {
     width: 100%;
     height: auto;
-    max-height: 300px;
-    object-fit: cover;
     border-radius: 12px;
     border: 1px solid var(--line);
     background: #fff;
@@ -127,6 +125,16 @@
   .price-table tbody tr:last-child td { border-bottom:0; }
   .price-table tbody tr:hover { background:#fff7f0; }
   .price-note { margin:6px 2px 0; color:var(--text-soft); font-size:.92rem; }
+
+  /* Option-Gruppen für Formate/Ausrichtung/Seitenanzahl */
+  .option-group {
+    margin: 8px 0 4px;
+  }
+  .option-group h4 {
+    margin: 4px 0;
+    font-size: .95rem;
+    font-weight: 600;
+  }
 
   /* Filter-Buttons (Emoji-Icons) */
   .filter-toggle {
@@ -166,6 +174,37 @@
     .product-card { grid-template-columns: 1fr; }
     .product-card__media img { max-height: 240px; }
   }
+
+  /* Container für das Bild */
+  .product-card__media .media-wrap {
+    position: relative;
+    overflow: visible !important; /* wichtig: Bild darf herausragen */
+  }
+
+  /* Das Bild */
+  .product-card__media img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.4s ease, box-shadow 0.3s ease;
+    display: block;
+    transform-origin: center center;
+    z-index: 2;
+    position: relative;
+  }
+
+  /* Hover: Bild zoomt stark heraus */
+  .product-card__media:hover img {
+    transform: scale(1.6);                /* größerer Zoom */
+    z-index: 9999;                        /* über ALLEM */
+    box-shadow: 0 18px 40px rgba(0,0,0,0.35);
+    border-radius: 12px;
+  }
+
+  /* Damit der Text nicht „hochspringt“ */
+  .product-card__media {
+    overflow: visible !important;
+    position: relative;
+  }
 </style>
 
 <script>
@@ -204,6 +243,17 @@
       return;
     }
 
+    // Überschrift & Seitentitel dynamisch setzen
+    const headingEl = document.getElementById('service-title');
+    if (headingEl) {
+      headingEl.textContent = svc.title || 'Service';
+    }
+
+// Browser-Tab Titel anpassen
+    if (svc.title) {
+      document.title = svc.title + ' – Stark Druck';
+    }
+
     // Filter nur bei Kleidung anzeigen
     const filterEl = document.getElementById('product-filter');
     const isClothing =
@@ -240,24 +290,77 @@
           </div>`;
     }
 
+    // NEU: generische Swatches für Formate / Ausrichtung / Seitenanzahl
+    function renderOptionSwatches(title, options) {
+      if (!Array.isArray(options) || !options.length) return '';
+      const group = slugify(title) + '-' + Math.random().toString(36).slice(2,7);
+      return `
+        <div class="option-group">
+          <h4>${esc(title)}</h4>
+          <div class="swatches" role="radiogroup" aria-label="${esc(title)} wählen">
+            ${options.map((opt, i) => `
+              <label class="swatch" title="${esc(opt)}">
+                <input type="radio" name="${group}" ${i===0 ? 'checked' : ''} value="${esc(opt)}">
+                <span class="swatch__dot"></span>
+                <span class="swatch__label">${esc(opt)}</span>
+              </label>
+            `).join('')}
+          </div>
+        </div>
+      `;
+    }
+
     function renderPriceTable(rows) {
       if (!Array.isArray(rows) || !rows.length) return '';
+
+      const first = rows[0] || {};
+      const isFromFormat = 'from' in first && !('onePos' in first) && !('twoPos' in first);
+
+      if (isFromFormat) {
+        // Neues Format: qty + from
+        return `
+      <div class="price-table-wrap">
+        <table class="price-table" aria-label="Preistabelle">
+          <thead>
+            <tr>
+              <th>Menge</th>
+              <th>Preis</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${rows.map(r => `
+              <tr>
+                <td>${esc(r.qty)}</td>
+                <td>${esc(r.from)}</td>
+              </tr>`).join('')}
+          </tbody>
+        </table>
+        <p class="price-note">Alle Preise inkl. MwSt., zzgl. Versand.</p>
+      </div>`;
+      }
+
+      // Altes Format: qty + onePos + twoPos
       return `
-          <div class="price-table-wrap">
-            <table class="price-table" aria-label="Preistabelle">
-              <thead><tr><th>Menge</th><th>1 Druckposition</th><th>2 Druckpositionen</th></tr></thead>
-              <tbody>
-                ${rows.map(r => `
-                  <tr>
-                    <td>${esc(r.qty)}</td>
-                    <td>${esc(r.onePos)}</td>
-                    <td>${esc(r.twoPos)}</td>
-                  </tr>
-                `).join('')}
-              </tbody>
-            </table>
-            <p class="price-note">Alle Preise inkl. MwSt., zzgl. Versand. Staffelpreise gelten pro Motiv.</p>
-          </div>`;
+    <div class="price-table-wrap">
+      <table class="price-table" aria-label="Preistabelle">
+        <thead>
+          <tr>
+            <th>Menge</th>
+            <th>1 Position</th>
+            <th>2 Positionen</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${rows.map(r => `
+            <tr>
+              <td>${esc(r.qty)}</td>
+              <td>${esc(r.onePos)}</td>
+              <td>${esc(r.twoPos)}</td>
+            </tr>`).join('')}
+        </tbody>
+      </table>
+      <p class="price-note">Alle Preise inkl. MwSt., zzgl. Versand. Staffelpreise gelten pro Motiv.</p>
+    </div>`;
     }
 
     function renderProperties(props) {
@@ -288,6 +391,10 @@
           ${p.description ? `<p class="lead">${p.description}</p>` : ''}
 
           ${renderColorSwatches(p.colors)}
+          ${renderOptionSwatches('Format', p.formate)}
+          ${renderOptionSwatches('Ausrichtung', p.ausrichtung)}
+          ${renderOptionSwatches('Seitenanzahl', p.seitenanzahl)}
+          ${renderOptionSwatches('Faltung', p.faltung)}
           ${renderPriceTable(p.priceTable)}
 
           <div class="btn-row">
@@ -302,8 +409,7 @@
           <div class="media-wrap">
             ${img
               ? `<img src="${img}" alt="${name}"
-                     onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
-                     style="width:100%;height:auto;max-height:300px;object-fit:cover;border-radius:12px;border:1px solid var(--line);background:#fff;">`
+         onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">`
               : ``}
             <div class="img-placeholder" style="${img ? 'display:none' : 'display:flex'}">
               <span class="ph-icon">🖼️</span>

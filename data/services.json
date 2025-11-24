@@ -3,23 +3,120 @@
     {
       "slug": "broschueren-flyer",
       "title": "Broschüren & Flyer",
-      "summary": "Flyer, Folder und Broschüren in Premium-Qualität für Events, Messen & Versand.",
-      "heroImage": "images/services/broschueren.jpg",
-      "badges": ["Schnelle Produktion", "Beratung inklusive", "Nachhaltige Papiere"],
+      "summary": "Professionell gedruckte Broschüren ...",
+      "heroImage": "images/services/broschuere.png",
+      "badges": ["Klammerheftung", "Viele Formate", "Datencheck inklusive"],
       "products": [
         {
-          "name": "Flyer",
-          "summary": "DIN A6–A4, 135–300 g/m², matt/glänzend",
-          "image": "images/products/flyer.jpg",
-          "priceFrom": "ab 29 €",
-          "specs": ["Mengen: 100–50.000", "4/4-farbig CMYK", "Klimaneutral optional"]
+          "name": "Standard Broschüre DIN A4 – Klammerheftung",
+          "image": "images/services/broschuere.png",
+          "description": "Klassische Broschüre im DIN A4 Hochformat ...",
+
+          "formate": [
+            "DIN A6 (10,5 × 14,8 cm)",
+            "DIN A5 (14,8 × 21,0 cm)",
+            "DIN A4 (21,0 × 29,7 cm)",
+            "DIN A3 (29,7 × 42,0 cm)",
+            "DIN Lang (10,5 × 21 cm)",
+            "DIN Lang Spezial (9,8 × 21 cm)"
+          ],
+
+          "ausrichtung": [
+            "Hochformat",
+            "Querformat",
+            "Quadratisch"
+          ],
+
+          "seitenanzahl": [
+            "4-seitig",
+            "8-seitig",
+            "12-seitig",
+            "16-seitig",
+            "20-seitig",
+            "24-seitig",
+            "28-seitig",
+            "32-seitig",
+            "36-seitig",
+            "40-seitig",
+            "44-seitig",
+            "48-seitig",
+            "52-seitig",
+            "56-seitig",
+            "60-seitig",
+            "64-seitig",
+            "68-seitig",
+            "72-seitig",
+            "76-seitig",
+            "80-seitig",
+            "84-seitig",
+            "88-seitig",
+            "92-seitig",
+            "96-seitig"
+          ],
+
+          "priceTable": [
+            { "qty": "10", "from": "ab 29,99 €" },
+            { "qty": "25", "from": "ab 34,99 €" },
+            { "qty": "50", "from": "ab 44,99 €" },
+            { "qty": "100", "from": "ab 54,99 €" },
+            { "qty": "250", "from": "ab 89,99 €" },
+            { "qty": "500", "from": "ab 114,99 €" },
+            { "qty": "1.000", "from": "ab 164,99 €" },
+            { "qty": "2.000", "from": "ab 259,99 €" },
+            { "qty": "> 2.000", "from": "Preis anfragen" }
+          ],
+
+          "properties": [
+            { "label": "Papier Innenteil", "value": "130 g/m² Bilderdruckpapier" },
+            { "label": "Heftung", "value": "2-fach Klammerheftung oder Ringösen" }
+          ]
         },
+
         {
-          "name": "Broschüre (Klammerheftung)",
-          "summary": "8–64 Seiten, DIN A5/A4",
-          "image": "images/products/broschuere.jpg",
-          "priceFrom": "ab 89 €",
-          "specs": ["Innenteil 90–170 g/m²", "Umschlag bis 300 g/m²", "Softtouch optional"]
+          "name": "Flyer & Falzflyer",
+          "image": "images/services/flyer.png",
+          "description": "Flyer und Falzflyer in vielen Formaten – ideal für Aktionen, Imagewerbung und Mailings.",
+
+          "formate": [
+            "DIN A8 (5,2 × 7,4 cm) – Gefalzter Flyer im Hochformat",
+            "DIN A7 (7,4 × 10,5 cm) – Gefalzter Flyer im Hochformat",
+            "DIN A6 (10,5 × 14,8 cm) – Essentials Gefalzter Flyer im Hochformat",
+            "DIN A5 (14,8 × 21,0 cm) – Essentials Gefalzter Flyer im Hochformat",
+            "DIN A4 (21,0 × 29,7 cm) – Gefalzter Flyer im Hochformat",
+            "DIN A3 (29,7 × 42,0 cm) – Gefalzter Flyer im Hochformat",
+            "DIN lang (10,5 × 21,0 cm) – Gefalzter Flyer im Hochformat"
+          ],
+
+          "ausrichtung": [
+            "Hochformat"
+          ],
+
+          "faltung": [
+            "Flyer ungefalzt",
+            "Falzflyer Mittelfalz (Einbruchfalz)",
+            "Falzflyer Wickelfalz",
+            "Falzflyer Zickzackfalz",
+            "Falzflyer Fensterfalz (Altarfalz)"
+          ],
+
+          "priceTable": [
+            { "qty": "25",    "from": "ab 34,99 €" },
+            { "qty": "50",    "from": "ab 39,99 €" },
+            { "qty": "100",   "from": "ab 49,99 €" },
+            { "qty": "250",   "from": "ab 59,99 €" },
+            { "qty": "500",   "from": "ab 74,99 €" },
+            { "qty": "1.000", "from": "ab 79,99 €" },
+            { "qty": "2.000", "from": "ab 119,99 €" },
+            { "qty": "5.000", "from": "ab 209,99 €" },
+            { "qty": "> 5.000", "from": "Preis anfragen" }
+          ],
+
+          "properties": [
+            { "label": "Produktarten", "value": "ungefalzte Flyer und diverse Falzflyer" },
+            { "label": "Mögliche Falzungen", "value": "Mittelfalz (Einbruchfalz), Wickelfalz, Zickzackfalz, Fensterfalz (Altarfalz)" },
+            { "label": "Papier", "value": "z. B. 135–250 g/m² Bilderdruck (matt/glänzend)" },
+            { "label": "Druck", "value": "4/4-farbig (CMYK)" }
+          ]
         }
       ]
     },
@@ -31,11 +128,46 @@
       "badges": ["UV-beständig", "Express möglich"],
       "products": [
         {
-          "name": "Plakat A1",
-          "summary": "DIN A1, brillanter Farbdruck",
-          "image": "images/products/plakat-a1.jpg",
-          "priceFrom": "ab 9 €",
-          "specs": ["Blueback optional", "Outdoor geeignet"]
+          "name": "Plakate DIN A0–A4 & B0–B2",
+          "image": "images/services/plakat.png",
+          "description": "Großformatige Plakate für Indoor- und Outdoorwerbung – auf Wunsch mit Blueback-Affichenpapier für Plakatwände.",
+
+          "formate": [
+            "DIN A4 (21,0 × 29,7 cm)",
+            "DIN A3 (29,7 × 42,0 cm)",
+            "DIN A2 (42,0 × 59,4 cm)",
+            "DIN A1 (59,4 × 84,1 cm)",
+            "DIN A0 (84,1 × 118,9 cm)",
+            "DIN B2 (50,0 × 70,0 cm)",
+            "DIN B1 (70,0 × 100,0 cm)",
+            "DIN B0 (100,0 × 140,0 cm)"
+          ],
+
+          "ausrichtung": [
+            "Hochformat"
+          ],
+
+          "priceTable": [
+            { "qty": "1",     "from": "ab 16,99 €" },
+            { "qty": "2",     "from": "ab 17,99 €" },
+            { "qty": "5",     "from": "ab 18,99 €" },
+            { "qty": "10",    "from": "ab 19,99 €" },
+            { "qty": "25",    "from": "ab 21,99 €" },
+            { "qty": "50",    "from": "ab 25,99 €" },
+            { "qty": "100",   "from": "ab 34,99 €" },
+            { "qty": "250",   "from": "ab 52,99 €" },
+            { "qty": "500",   "from": "ab 64,99 €" },
+            { "qty": "1.000", "from": "ab 92,99 €" },
+            { "qty": "2.000", "from": "ab 161,99 €" },
+            { "qty": "> 2.000", "from": "Preis anfragen" }
+          ],
+
+          "properties": [
+            { "label": "Material", "value": "z. B. 130–150 g/m² Bilderdruck (matt/glänzend) oder 120 g/m² Affichenpapier (Blueback)" },
+            { "label": "Einsatzbereich", "value": "Innen- und Außenbereich" },
+            { "label": "Druck", "value": "4/0-farbig (CMYK)" },
+            { "label": "Besonderheiten", "value": "UV-beständige Farben, optional Blueback für Plakatwände" }
+          ]
         }
       ]
     },
@@ -43,15 +175,47 @@
       "slug": "rollups",
       "title": "Roll-ups",
       "summary": "Mobile Messe-Systeme mit hochwertigem Druck und stabiler Mechanik.",
-      "heroImage": "images/services/rollups.jpg",
+      "heroImage": "images/services/rollups.png",
       "badges": ["Transporttasche inkl.", "Schneller Aufbau"],
       "products": [
         {
-          "name": "Roll-up Standard 85×200",
-          "summary": "Leicht & robust",
-          "image": "images/products/rollup-85x200.jpg",
-          "priceFrom": "ab 69 €",
-          "specs": ["B1-zertifiziert", "Anti-Curl Film"]
+          "name": "Roll-ups Basic & Premium",
+          "image": "images/services/rollups.png",
+          "description": "Mobile Roll-up Systeme für Messen, Events und POS – wahlweise als Basic- oder Premium-Variante mit stabiler Mechanik und hochwertigem Druck.",
+
+          "formate": [
+            "Basic Roll-up 85 × 200 cm",
+            "Basic Roll-up 100 × 200 cm",
+            "Premium Roll-up 60 × 200 cm",
+            "Premium Roll-up 85 × 200 cm",
+            "Premium Roll-up 100 × 200 cm",
+            "Premium Roll-up 120 × 200 cm",
+            "Premium Roll-up 150 × 200 cm",
+            "Premium Roll-up 200 × 170 cm",
+            "Premium Roll-up 200 × 200 cm",
+            "Premium Roll-up 200 × 250 cm",
+            "Premium Roll-up 200 × 300 cm"
+          ],
+
+          "ausrichtung": [
+            "Hochformat"
+          ],
+
+          "priceTable": [
+            { "qty": "1",   "from": "ab 46,99 €" },
+            { "qty": "2",   "from": "ab 79,99 €" },
+            { "qty": "3",   "from": "ab 114,99 €" },
+            { "qty": "4",   "from": "ab 149,99 €" },
+            { "qty": "5",   "from": "ab 183,99 €" },
+            { "qty": "> 5", "from": "Preis anfragen" }
+          ],
+
+          "properties": [
+            { "label": "Varianten", "value": "Basic- und Premium-Roll-ups" },
+            { "label": "Material Druck", "value": "z. B. B1-zertifizierter Roll-up-Film, Anti-Curl" },
+            { "label": "Einsatzbereich", "value": "Indoor (Messen, Events, Verkaufsräume)" },
+            { "label": "Ausstattung", "value": "Aluminium-Kassette, Teleskopstange, inkl. Transporttasche" }
+          ]
         }
       ]
     },
@@ -59,15 +223,46 @@
       "slug": "visitenkarten",
       "title": "Visitenkarten",
       "summary": "Edle Haptik, starke Veredelungen: Prägung, Spotlack, Softtouch.",
-      "heroImage": "images/services/visitenkarten.jpg",
+      "heroImage": "images/services/visitenkarte.png",
       "badges": ["Sonderfarben", "Veredelungen"],
       "products": [
         {
-          "name": "Standard 350 g/m²",
-          "summary": "Matt/Glanz, 4/4-farbig",
-          "image": "images/products/vk-standard.jpg",
-          "priceFrom": "ab 19 €",
-          "specs": ["Ecken rund optional", "Express möglich"]
+          "name": "Visitenkarten Standard 350 g/m²",
+          "summary": "Matt/Glanz, 4/4-farbig oder 4/0-farbig",
+          "image": "images/services/visitenkarte.png",
+
+          "description": "Hochwertige Standard-Visitenkarten auf 350 g/m² Bilderdruckkarton – wahlweise matt oder glänzend veredelt. Optional einseitig oder beidseitig bedruckbar.",
+
+          "formate": [
+            "85 × 55 mm",
+            "90 × 50 mm",
+            "55 × 85 mm",
+            "50 × 90 mm",
+            "55 × 55 mm"
+          ],
+
+          "bedruckt": [
+            "einseitig",
+            "zweiseitig"
+          ],
+
+          "priceTable": [
+            { "qty": "100",   "from": "ab 13,99 €" },
+            { "qty": "250",   "from": "ab 18,99 €" },
+            { "qty": "500",   "from": "ab 23,99 €" },
+            { "qty": "1.000", "from": "ab 26,99 €" },
+            { "qty": "2.000", "from": "ab 27,99 €" },
+            { "qty": "5.000", "from": "ab 43,99 €" },
+            { "qty": "10.000", "from": "ab 69,99 €" },
+            { "qty": "> 10.000", "from": "Preis anfragen" }
+          ],
+
+          "properties": [
+            { "label": "Papier", "value": "350 g/m² Bilderdruckkarton (matt oder glänzend)" },
+            { "label": "Druck", "value": "4/4-farbig oder 4/0-farbig (CMYK)" },
+            { "label": "Veredelungen", "value": "Optional: Softtouch, UV-Spot, Prägungen" },
+            { "label": "Optionen", "value": "Runde Ecken, Expressproduktion" }
+          ]
         }
       ]
     },
@@ -75,15 +270,43 @@
       "slug": "aufkleber",
       "title": "Aufkleber",
       "summary": "Individuelle Sticker, konturgeschnitten, witterungsbeständig.",
-      "heroImage": "images/services/aufkleber.jpg",
+      "heroImage": "images/services/sticker.png",
       "badges": ["Outdoor-tauglich", "Kleinstmengen"],
       "products": [
         {
           "name": "Sticker Bogenware",
           "summary": "Freie Formen, UV-beständig",
-          "image": "images/products/sticker-bogen.jpg",
-          "priceFrom": "ab 15 €",
-          "specs": ["matt/glänzend", "konturgeschnitten"]
+          "image": "images/services/sticker.png",
+          "priceFrom": "ab 16,99 €",
+
+          "description": "Witterungsbeständige Aufkleber auf Bogen – ideal für Innen- und Außeneinsatz. In rund, oval oder rechteckig und nahezu jeder Wunschgröße ab 3 mm, konturgeschnitten nach deinem Motiv.",
+
+          "formate": [
+            "Rund",
+            "Oval",
+            "Rechteckig"
+          ],
+
+          "groessen": [
+            "Jede Größe ab 3 mm (frei wählbar)"
+          ],
+
+          "priceTable": [
+            { "qty": "100",    "from": "ab 16,99 €" },
+            { "qty": "250",    "from": "ab 21,99 €" },
+            { "qty": "500",    "from": "ab 29,99 €" },
+            { "qty": "1.000",  "from": "ab 47,99 €" },
+            { "qty": "2.000",  "from": "ab 82,99 €" },
+            { "qty": "5.000",  "from": "ab 188,99 €" },
+            { "qty": "10.000", "from": "ab 363,99 €" },
+            { "qty": "> 10.000", "from": "Preis anfragen" }
+          ],
+
+          "properties": [
+            { "label": "Oberfläche", "value": "matt oder glänzend" },
+            { "label": "Zuschnitt", "value": "konturgeschnitten auf Bogen" },
+            { "label": "Einsatzbereich", "value": "Indoor & Outdoor, UV-beständig" }
+          ]
         }
       ]
     },
@@ -91,15 +314,103 @@
       "slug": "stifte",
       "title": "Stifte",
       "summary": "Markenstifte mit Ihrem Logo – vom Klassiker bis Eco-Variante.",
-      "heroImage": "images/services/stifte.jpg",
+      "heroImage": "images/services/kugelschreiber1.png",
       "badges": ["Einzelnamensdruck", "Schnelle Lieferung"],
       "products": [
         {
-          "name": "Kugelschreiber Classic",
-          "summary": "Druck 1–3 Farben oder Digital",
-          "image": "images/products/pen-classic.jpg",
-          "priceFrom": "ab 0,49 € / Stk.",
-          "specs": ["ab 100 Stk.", "Schnellservice möglich"]
+          "name": "Kugelschreiber Beanana",
+          "summary": "Kunststoff-Kugelschreiber mit Metallclip – individuell bedruckbar",
+          "image": "images/services/kugelschreiber2.png",
+
+          "description": "Druckkugelschreiber aus Kunststoff mit Metall-Clip und -Spitze. Blauschreibende, austauschbare Mine. Rechts vom Clip zweifarbig bedruckbar. Einfache Gestaltung direkt im Browser möglich. Optional bieten wir Ihnen einen kompletten Designservice ab 39 €.",
+
+          "colors": [
+            { "name": "weiß",       "hex": "#FFFFFF" },
+            { "name": "rot",        "hex": "#E2001A" },
+            { "name": "blau",       "hex": "#0057B7" },
+            { "name": "hellblau",   "hex": "#7EC8E3" },
+            { "name": "dunkelblau", "hex": "#0B1D3A" },
+            { "name": "türkis",     "hex": "#2EC4B6" },
+            { "name": "grün",       "hex": "#007F3D" },
+            { "name": "apfelgrün",  "hex": "#8CC63F" },
+            { "name": "gelb",       "hex": "#FFD400" },
+            { "name": "orange",     "hex": "#FF7A00" },
+            { "name": "pink",       "hex": "#FF66B3" },
+            { "name": "violett",    "hex": "#7A3E9D" },
+            { "name": "schwarz",    "hex": "#000000" },
+            { "name": "burgund",    "hex": "#751D32" }
+          ],
+
+          "priceTable": [
+            { "qty": "25",   "from": "ab 56,99 €" },
+            { "qty": "50",   "from": "ab 79,99 €" },
+            { "qty": "100",  "from": "ab 99,99 €" },
+            { "qty": "250",  "from": "ab 184,99 €" },
+            { "qty": "500",  "from": "ab 282,99 €" },
+            { "qty": "1.000","from": "ab 473,99 €" },
+            { "qty": "> 1.000","from": "Preis anfragen" }
+          ],
+
+          "properties": [
+            { "label": "Material", "value": "Kunststoffschaft, Clip & Spitze aus Metall" },
+            { "label": "Mine", "value": "blauschreibend, austauschbar" },
+            { "label": "Druckposition", "value": "rechts vom Clip, zweifarbig" }
+          ]
+        },
+
+        {
+          "name": "Kugelschreiber Baltimore",
+          "summary": "Stilvoller Werbekugelschreiber mit Metalloptik",
+          "image": "images/services/kugelschreiber1.png",
+
+          "colors": [
+            { "name": "weiß",   "hex": "#FFFFFF" },
+            { "name": "schwarz","hex": "#000000" },
+            { "name": "rot",    "hex": "#E2001A" },
+            { "name": "blau",   "hex": "#0057B7" },
+            { "name": "grün",   "hex": "#007F3D" },
+            { "name": "orange", "hex": "#FF7A00" },
+            { "name": "grau",   "hex": "#7A7A7A" }
+          ],
+
+          "priceTable": [
+            { "qty": "50",   "from": "ab 136,99 €" },
+            { "qty": "100",  "from": "ab 159,99 €" },
+            { "qty": "250",  "from": "ab 219,99 €" },
+            { "qty": "500",  "from": "ab 355,99 €" },
+            { "qty": "1.000","from": "ab 627,99 €" },
+            { "qty": "> 1.000","from": "Preis nachfragen" }
+          ],
+
+          "properties": [
+            { "label": "Design", "value": "Elegante Metall-Optik" },
+            { "label": "Druck", "value": "Seitlicher Werbedruck möglich" }
+          ]
+        },
+
+        {
+          "name": "Premium Kugelschreiber",
+          "summary": "Exklusiver Premium-Stift – ideal für hochwertige Kundengeschenke",
+          "image": "images/services/kugelschreiber3.png",
+
+          "colors": [
+            { "name": "weiß",       "hex": "#FFFFFF" }
+          ],
+
+          "priceTable": [
+            { "qty": "25",   "from": "ab 79,99 €" },
+            { "qty": "50",   "from": "ab 154,99 €" },
+            { "qty": "100",  "from": "ab 299,99 €" },
+            { "qty": "250",  "from": "ab 746,99 €" },
+            { "qty": "500",  "from": "ab 1.492,99 €" },
+            { "qty": "> 500","from": "Preis nachfragen" }
+          ],
+
+          "properties": [
+            { "label": "Kategorie", "value": "Premium Werbekugelschreiber" },
+            { "label": "Druck", "value": "Hochwertiger Werbedruck möglich" },
+            { "label": "Material", "value": "Exklusives Gehäuse (hochwertige Verarbeitung)" }
+          ]
         }
       ]
     },
@@ -107,15 +418,111 @@
       "slug": "taschen",
       "title": "Taschen",
       "summary": "Baumwoll- & Einkaufstaschen als nachhaltige Werbeträger.",
-      "heroImage": "images/services/taschen.jpg",
+      "heroImage": "images/services/tasche1.png",
       "badges": ["Bio-Baumwolle", "Mehrweg"],
       "products": [
         {
-          "name": "Baumwolltasche",
-          "summary": "Siebdruck 1–3 Farben",
-          "image": "images/products/tote.jpg",
-          "priceFrom": "ab 1,99 €",
-          "specs": ["lange Henkel", "viele Farben"]
+          "name": "Baumwoll-Einkaufstasche COTTONEL 140 g/m²",
+          "model": "GiftRetail MO9267",
+          "summary": "Shopping Tasche mit langen Henkeln aus 140 g/m² Baumwolle.",
+          "image": "images/services/tasche1.png",
+          "description": "Robuste Baumwoll-Einkaufstasche aus 140 g/m² Baumwolle mit langen Tragegriffen. Größe 38 × 42 cm, hoher Lagerbestand und ideal für Werbedruck. Produziert gemäß zertifiziertem Standard für die Verwendung von Schadstoffen in Textilien.",
+          "colors": [
+            { "name": "Beige / Natur", "hex": "#e7ddc5" }
+          ],
+          "size": "38 × 42 cm",
+          "priceTable": [
+            { "qty": "1–8",   "onePos": "6,49 €", "twoPos": "9,99 €" },
+            { "qty": "9–32",  "onePos": "4,99 €", "twoPos": "6,99 €" },
+            { "qty": "33–72", "onePos": "3,99 €", "twoPos": "5,99 €" },
+            { "qty": "> 72",  "onePos": "3,49 €", "twoPos": "5,49 €" }
+          ],
+          "properties": [
+            { "label": "Material", "value": "100% Baumwolle" },
+            { "label": "Grammatur", "value": "140 g/m²" },
+            { "label": "Format", "value": "38 × 42 cm" },
+            { "label": "Henkel", "value": "Lange Tragegriffe" },
+            { "label": "Druck", "value": "1- oder 2-seitiger Werbedruck möglich" },
+            { "label": "Zertifizierung", "value": "Produziert gemäß zertifiziertem Standard für die Verwendung von Schadstoffen in Textilien" }
+          ]
+        },
+        {
+          "name": "Premium Cotton Bag",
+          "model": "Westford Mill W201",
+          "summary": "Premium Baumwolltasche aus 200 g/m² Baumwolle mit langen Henkeln.",
+          "image": "images/services/tasche2.png",
+
+          "description": "Hochwertige Premium-Baumwolltasche aus 200 g/m² Baumwolle mit langen Henkeln. Besonders strapazierfähig, ideal für hochwertige Werbeartikel und langlebige Einkaufstaschen. OEKO-TEX® zertifiziert, 1-farbig erhältlich.",
+
+          "colors": [
+            { "name": "Black", "hex": "#000000" },
+            { "name": "Bottle Green", "hex": "#234f33" },
+            { "name": "Bright Royal", "hex": "#0051ba" },
+            { "name": "Burgundy", "hex": "#751d32" },
+            { "name": "Classic Red", "hex": "#c5001a" },
+            { "name": "French Navy", "hex": "#1a2346" },
+            { "name": "Graphite Grey", "hex": "#3a3a3a" },
+            { "name": "Natural", "hex": "#f2ead8" },
+            { "name": "White", "hex": "#ffffff" }
+          ],
+
+          "size": "38 × 42 cm",
+
+          "priceTable": [
+            { "qty": "1–8",   "onePos": "7,49 €", "twoPos": "10,99 €" },
+            { "qty": "9–32",  "onePos": "5,99 €", "twoPos": "7,99 €" },
+            { "qty": "33–72", "onePos": "4,99 €", "twoPos": "6,99 €" },
+            { "qty": "> 72",  "onePos": "4,49 €", "twoPos": "6,49 €" }
+          ],
+
+          "properties": [
+            { "label": "Material", "value": "100% Baumwolle" },
+            { "label": "Grammatur", "value": "200 g/m²" },
+            { "label": "Zertifikate", "value": "OEKO-TEX® STANDARD 100" },
+            { "label": "Farbigkeit", "value": "1-farbig" },
+            { "label": "Henkel", "value": "Lange Tragegriffe" },
+            { "label": "Kategorie", "value": "Baumwolltaschen, Einkaufstaschen" },
+            { "label": "Pflege", "value": "Nicht waschbar, nicht bügeln, nicht bleichen, nicht im Trockner" }
+          ]
+        },
+        {
+          "name": "Fairtrade Cotton Bag Long Handles",
+          "model": "XT600N",
+          "summary": "Fairtrade-zertifizierte Bio-Baumwolltasche mit langen Henkeln.",
+          "image": "images/services/tasche3.png",
+
+          "description": "Nachhaltige Einkaufstasche aus Fairtrade-zertifizierter Baumwolle (145 g/m²) mit langen Henkeln. Produziert unter fairen Arbeitsbedingungen und OEKO-TEX® STANDARD 100 zertifiziert. Perfekt als hochwertige Werbe- oder Einkaufstasche.",
+
+          "colors": [
+            { "name": "Black", "hex": "#000000" },
+            { "name": "Burgundy", "hex": "#751d32" },
+            { "name": "Graphite Grey", "hex": "#363a37" },
+            { "name": "Light Grey", "hex": "#d3d3d3" },
+            { "name": "Natural", "hex": "#f2ead8" },
+            { "name": "Navy", "hex": "#1b2535" },
+            { "name": "Red", "hex": "#ba0c2f" },
+            { "name": "Royal", "hex": "#003da5" },
+            { "name": "White", "hex": "#ffffff" }
+          ],
+
+          "size": "ca. 38 × 42 cm",
+
+          "priceTable": [
+            { "qty": "1–8",   "onePos": "7,49 €", "twoPos": "10,99 €" },
+            { "qty": "9–32",  "onePos": "5,99 €", "twoPos": "7,99 €" },
+            { "qty": "33–72", "onePos": "4,99 €", "twoPos": "6,99 €" },
+            { "qty": "> 72",  "onePos": "4,49 €", "twoPos": "6,49 €" }
+          ],
+
+          "properties": [
+            { "label": "Material", "value": "100% Fairtrade-zertifizierte Baumwolle" },
+            { "label": "Grammatur", "value": "145 g/m²" },
+            { "label": "Zertifikate", "value": "Fairtrade Cotton, Bio-Baumwolle, OEKO-TEX® STANDARD 100: 15.0.68301 Hohenstein" },
+            { "label": "Henkel", "value": "Lange Tragegriffe" },
+            { "label": "Farbigkeit", "value": "1-farbig" },
+            { "label": "Pflege", "value": "Nicht waschen, nicht bleichen, nicht bügeln" },
+            { "label": "Kategorie", "value": "Baumwolltaschen, Einkaufstaschen" }
+          ]
         }
       ]
     },
@@ -123,14 +530,21 @@
       "slug": "tassen",
       "title": "Tassen",
       "summary": "Personalisierte Becher & Tassen – spülmaschinenfest verfügbar.",
-      "heroImage": "images/services/tassen.jpg",
+      "heroImage": "images/services/tasse.png",
       "badges": ["Vollfarb-Druck", "Spülmaschinenfest"],
       "products": [
         {
           "name": "Keramik-Tasse 350 ml (Egotier 93990)",
           "summary": "Weiße Keramiktasse, 350 ml, ideal für Sublimationsdruck.",
-          "image": "",
-          "priceFrom": "ab 1,34 €",
+          "image": "images/services/tasse.png",
+          "priceFrom": "ab 4,99 €",
+
+          "priceTable": [
+            { "qty": "1–19",  "from": "ab 4,99 €" },
+            { "qty": "20–100", "from": "ab 3,99 €" },
+            { "qty": "> 100", "from": "ab 3,49 €" }
+          ],
+
           "specs": [
             "Füllmenge: 350 ml",
             "Farbe: Weiß",
@@ -160,14 +574,14 @@
       "slug": "kleidung",
       "title": "Kleidung",
       "summary": "Textildruck & Veredelung für Teams, Vereine und Merch.",
-      "heroImage": "images/services/kleidung.jpg",
+      "heroImage": "images/services/tshirt1.png",
       "badges": ["Siebdruck", "DTF/DTG", "Stickerei"],
       "products": [
         {
           "name": "Standard T-Shirt Classic",
           "model": "",
           "category": "tshirt",
-          "image": "",
+          "image": "images/services/tshirt1.png",
           "description": "Klassisches Rundhals-Shirt, 100% Baumwolle, 185 g/m², einlaufvorbehandelt.",
           "colors": [
             { "name": "Apricot", "hex": "#f5b185" },
@@ -212,9 +626,10 @@
             { "name": "White", "hex": "#ffffff" }
           ],
           "priceTable": [
-            { "qty": "1–6",  "onePos": "23 €", "twoPos": "27 €" },
-            { "qty": "7–20", "onePos": "21 €", "twoPos": "25 €" },
-            { "qty": "> 20", "onePos": "19 €", "twoPos": "23 €" }
+            { "qty": "1–6",  "onePos": "19,99 €", "twoPos": "24,99 €" },
+            { "qty": "7–30", "onePos": "17,99 €", "twoPos": "20,99 €" },
+            { "qty": "31-60", "onePos": "15,99 €", "twoPos": "17,99 €" },
+            { "qty": "> 60", "onePos": "13,99 €", "twoPos": "15,99 €" }
           ],
           "properties": [
             { "label": "Material", "value": "100% Baumwolle (185 g/m²)" },
@@ -228,7 +643,7 @@
           "name": "Premium Bio T-Shirt",
           "model": "",
           "category": "tshirt",
-          "image": "",
+          "image": "images/services/tshirt2.png",
           "description": "Bio-Baumwolle, 215 g/m² (White: 205 g/m²), relaxed fit, OEKO-TEX® 100.",
           "colors": [
             { "name": "Blue Lilac",   "hex": "#8aa3d9" },
@@ -243,9 +658,10 @@
             { "name": "White",        "hex": "#ffffff" }
           ],
           "priceTable": [
-            { "qty": "1–6",  "onePos": "25 €", "twoPos": "29 €" },
-            { "qty": "7–20", "onePos": "23 €", "twoPos": "27 €" },
-            { "qty": "> 20", "onePos": "21 €", "twoPos": "25 €" }
+            { "qty": "1–6",  "onePos": "20,99 €", "twoPos": "25,99 €" },
+            { "qty": "7–30", "onePos": "18,99 €", "twoPos": "21,99 €" },
+            { "qty": "31-60", "onePos": "16,99 €", "twoPos": "18,99 €" },
+            { "qty": "> 60", "onePos": "14,99 €", "twoPos": "16,99 €" }
           ],
           "properties": [
             { "label": "Material",        "value": "Jersey, 100% Baumwolle (Bio)" },
@@ -265,7 +681,7 @@
           "name": "Premium Bio Hoodie",
           "model": "",
           "category": "hoodie",
-          "image": "",
+          "image": "images/services/hoodie1.png",
           "description": "Unisex Hoodie, 300 g/m², weiches, innen angerautes Fleece – ideal für Promotion, Freizeit & Teams.",
           "colors": [
             { "name": "Bottle Green", "hex": "#145c37" },
@@ -277,9 +693,10 @@
             { "name": "White", "hex": "#ffffff" }
           ],
           "priceTable": [
-            { "qty": "1–6",  "onePos": "25 €", "twoPos": "29 €" },
-            { "qty": "7–20", "onePos": "23 €", "twoPos": "27 €" },
-            { "qty": "> 20", "onePos": "21 €", "twoPos": "25 €" }
+            { "qty": "1–6",  "onePos": "29,99 €", "twoPos": "34,99 €" },
+            { "qty": "7–30", "onePos": "27,99 €", "twoPos": "30,99 €" },
+            { "qty": "31-60", "onePos": "25,99 €", "twoPos": "27,99 €" },
+            { "qty": "> 60", "onePos": "23,99 €", "twoPos": "25,99 €" }
           ],
           "properties": [
             { "label": "Material", "value": "55% Bio-Baumwolle / 20% recycelte Baumwolle / 25% recycelter Polyester" },
@@ -298,15 +715,16 @@
           "name": "Premium Warm Bio Hoodie",
           "model": "",
           "category": "hoodie",
-          "image": "",
+          "image": "images/services/hoodie2.png",
           "description": "Schwerer Organic Unisex Hoodie aus Bio- und Recycling-Baumwolle, 400 g/m², wasserabweisend – ideal für hochwertige Merch- & Team-Bekleidung.",
           "colors": [
             { "name": "Deep Black", "hex": "#000000" }
           ],
           "priceTable": [
-            { "qty": "1–6",  "onePos": "25 €", "twoPos": "29 €" },
-            { "qty": "7–20", "onePos": "23 €", "twoPos": "27 €" },
-            { "qty": "> 20", "onePos": "21 €", "twoPos": "25 €" }
+            { "qty": "1–6",  "onePos": "35,99 €", "twoPos": "40,99 €" },
+            { "qty": "7–30", "onePos": "33,99 €", "twoPos": "36,99 €" },
+            { "qty": "31-60", "onePos": "31,99 €", "twoPos": "33,99 €" },
+            { "qty": "> 60", "onePos": "29,99 €", "twoPos": "31,99 €" }
           ],
           "properties": [
             { "label": "Material", "value": "75% Baumwolle (Bio & recycelt) / 25% recycelter Polyester" },
@@ -327,7 +745,7 @@
           "name": "Super Premium Winter Hoodie",
           "model": "",
           "category": "hoodie",
-          "image": "",
+          "image": "images/services/hoodie3.png",
           "description": "Schwerer Oversized Hoodie aus 100% Baumwolle, 450 g/m², French Terry (nicht angeraut) – ideal für hochwertigen Streetwear-Look.",
           "colors": [
             { "name": "Black", "hex": "#000000" },
@@ -338,9 +756,10 @@
             { "name": "White", "hex": "#ffffff" }
           ],
           "priceTable": [
-            { "qty": "1–6",  "onePos": "25 €", "twoPos": "29 €" },
-            { "qty": "7–20", "onePos": "23 €", "twoPos": "27 €" },
-            { "qty": "> 20", "onePos": "21 €", "twoPos": "25 €" }
+            { "qty": "1–6",  "onePos": "39,99 €", "twoPos": "44,99 €" },
+            { "qty": "7–30", "onePos": "37,99 €", "twoPos": "40,99 €" },
+            { "qty": "31-60", "onePos": "35,99 €", "twoPos": "37,99 €" },
+            { "qty": "> 60", "onePos": "33,99 €", "twoPos": "35,99 €" }
           ],
           "properties": [
             { "label": "Material", "value": "100% Baumwolle (French Terry, innen nicht angeraut)" },
