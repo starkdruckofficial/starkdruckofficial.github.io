@@ -8,9 +8,9 @@
       "badges": ["Klammerheftung", "Viele Formate", "Datencheck inklusive"],
       "products": [
         {
-          "name": "Standard Broschüre DIN A4 – Klammerheftung",
+          "name": "Broschüren",
           "image": "images/services/broschuere.png",
-          "description": "Klassische Broschüre im DIN A4 Hochformat ...",
+          "description": "Wir produzieren deine Broschüren in vielen Formaten von DIN A6 bis DIN A3 und in unterschiedlichen Seitenumfängen. Du kannst zwischen Hochformat Querformat oder quadratischem Format wählen und Umschlag und Innenseiten mit passenden Papierstärken kombinieren. Ob Produktkatalog Vereinsmagazin oder Imagebroschüre wir sorgen für gestochen scharfen Vierfarbdruck saubere Falzung und eine stabile Klammerheftung. Auf Wunsch prüfen wir deine Druckdaten vorab und beraten dich zu Papier und Auflage damit dein Auftritt professionell wirkt.",
 
           "formate": [
             "DIN A6 (10,5 × 14,8 cm)",
@@ -68,23 +68,23 @@
 
           "properties": [
             { "label": "Papier Innenteil", "value": "130 g/m² Bilderdruckpapier" },
-            { "label": "Heftung", "value": "2-fach Klammerheftung oder Ringösen" }
+            { "label": "Heftung", "value": "2-fach Klammerheftung oder optional Ringösen" }
           ]
         },
 
         {
           "name": "Flyer & Falzflyer",
           "image": "images/services/flyer.png",
-          "description": "Flyer und Falzflyer in vielen Formaten – ideal für Aktionen, Imagewerbung und Mailings.",
+          "description": "Flyer sind der schnelle und wirkungsvolle Weg, Informationen zu präsentieren und Aufmerksamkeit zu gewinnen. Wir drucken deine Flyer in vielen gängigen Formaten von DIN A8 bis DIN A3 und auf hochwertigen Papieren in unterschiedlichen Stärken. Du kannst zwischen ungefalzten Varianten und verschiedenen Falzarten wählen wie Mittelfalz Wickelfalz Zickzackfalz oder Fensterfalz. Ob für Events Aktionen Gastronomie oder Imagewerbung wir sorgen für brillanten Vierfarbdruck eine saubere Verarbeitung und kurze Produktionszeiten, damit deine Botschaft klar und professionell ankommt.",
 
           "formate": [
-            "DIN A8 (5,2 × 7,4 cm) – Gefalzter Flyer im Hochformat",
-            "DIN A7 (7,4 × 10,5 cm) – Gefalzter Flyer im Hochformat",
-            "DIN A6 (10,5 × 14,8 cm) – Essentials Gefalzter Flyer im Hochformat",
-            "DIN A5 (14,8 × 21,0 cm) – Essentials Gefalzter Flyer im Hochformat",
-            "DIN A4 (21,0 × 29,7 cm) – Gefalzter Flyer im Hochformat",
-            "DIN A3 (29,7 × 42,0 cm) – Gefalzter Flyer im Hochformat",
-            "DIN lang (10,5 × 21,0 cm) – Gefalzter Flyer im Hochformat"
+            "DIN A8 (5,2 × 7,4 cm)",
+            "DIN A7 (7,4 × 10,5 cm)",
+            "DIN A6 (10,5 × 14,8 cm)",
+            "DIN A5 (14,8 × 21,0 cm)",
+            "DIN A4 (21,0 × 29,7 cm)",
+            "DIN A3 (29,7 × 42,0 cm)",
+            "DIN lang (10,5 × 21,0 cm)"
           ],
 
           "ausrichtung": [
@@ -93,10 +93,10 @@
 
           "faltung": [
             "Flyer ungefalzt",
-            "Falzflyer Mittelfalz (Einbruchfalz)",
+            "Falzflyer Mittelfalz",
             "Falzflyer Wickelfalz",
             "Falzflyer Zickzackfalz",
-            "Falzflyer Fensterfalz (Altarfalz)"
+            "Falzflyer Fensterfalz"
           ],
 
           "priceTable": [
@@ -113,8 +113,7 @@
 
           "properties": [
             { "label": "Produktarten", "value": "ungefalzte Flyer und diverse Falzflyer" },
-            { "label": "Mögliche Falzungen", "value": "Mittelfalz (Einbruchfalz), Wickelfalz, Zickzackfalz, Fensterfalz (Altarfalz)" },
-            { "label": "Papier", "value": "z. B. 135–250 g/m² Bilderdruck (matt/glänzend)" },
+            { "label": "Papier", "value": "135–250 g/m² Bilderdruck (matt/glänzend)" },
             { "label": "Druck", "value": "4/4-farbig (CMYK)" }
           ]
         }
@@ -128,9 +127,9 @@
       "badges": ["UV-beständig", "Express möglich"],
       "products": [
         {
-          "name": "Plakate DIN A0–A4 & B0–B2",
+          "name": "Plakate",
           "image": "images/services/plakat.png",
-          "description": "Großformatige Plakate für Indoor- und Outdoorwerbung – auf Wunsch mit Blueback-Affichenpapier für Plakatwände.",
+          "description": "Plakate sind ideal, um Botschaften großflächig und wirkungsvoll zu zeigen. Wir drucken deine Motive in allen wichtigen DIN und B Formaten auf hochwertigen Papieren für Innen und Außen. Die kräftigen Farben und die klare Druckqualität sorgen dafür, dass dein Plakat schon von weitem auffällt. Ob Werbung Veranstaltungen Hinweise oder Aktionen wir setzen dein Design im Großformat professionell und ansprechend um.",
 
           "formate": [
             "DIN A4 (21,0 × 29,7 cm)",
@@ -163,10 +162,8 @@
           ],
 
           "properties": [
-            { "label": "Material", "value": "z. B. 130–150 g/m² Bilderdruck (matt/glänzend) oder 120 g/m² Affichenpapier (Blueback)" },
-            { "label": "Einsatzbereich", "value": "Innen- und Außenbereich" },
-            { "label": "Druck", "value": "4/0-farbig (CMYK)" },
-            { "label": "Besonderheiten", "value": "UV-beständige Farben, optional Blueback für Plakatwände" }
+            { "label": "Material", "value": "130–150 g/m² Bilderdruck (matt/glänzend)" },
+            { "label": "Druck", "value": "4/0-farbig (CMYK)" }
           ]
         }
       ]
@@ -179,9 +176,9 @@
       "badges": ["Transporttasche inkl.", "Schneller Aufbau"],
       "products": [
         {
-          "name": "Roll-ups Basic & Premium",
+          "name": "Roll-ups",
           "image": "images/services/rollups.png",
-          "description": "Mobile Roll-up Systeme für Messen, Events und POS – wahlweise als Basic- oder Premium-Variante mit stabiler Mechanik und hochwertigem Druck.",
+          "description": "Rollups sind der ideale Begleiter für Messen Veranstaltungen und Präsentationen. Sie lassen sich schnell aufbauen leicht transportieren und bieten eine große sichtbare Werbefläche. Wir drucken dein Motiv in klaren Farben auf hochwertigem Rollup Material und liefern eine stabile Kassette sowie eine passende Transporttasche gleich mit. Ob für Promotions im Verkaufsraum bei Events oder als mobiler Werbeträger unterwegs deine Botschaft wird deutlich und professionell präsentiert.",
 
           "formate": [
             "Basic Roll-up 85 × 200 cm",
@@ -212,7 +209,7 @@
 
           "properties": [
             { "label": "Varianten", "value": "Basic- und Premium-Roll-ups" },
-            { "label": "Material Druck", "value": "z. B. B1-zertifizierter Roll-up-Film, Anti-Curl" },
+            { "label": "Material Druck", "value": "B1-zertifizierter Roll-up-Film, Anti-Curl" },
             { "label": "Einsatzbereich", "value": "Indoor (Messen, Events, Verkaufsräume)" },
             { "label": "Ausstattung", "value": "Aluminium-Kassette, Teleskopstange, inkl. Transporttasche" }
           ]
@@ -227,12 +224,10 @@
       "badges": ["Sonderfarben", "Veredelungen"],
       "products": [
         {
-          "name": "Visitenkarten Standard 350 g/m²",
+          "name": "Visitenkarten",
           "summary": "Matt/Glanz, 4/4-farbig oder 4/0-farbig",
           "image": "images/services/visitenkarte.png",
-
-          "description": "Hochwertige Standard-Visitenkarten auf 350 g/m² Bilderdruckkarton – wahlweise matt oder glänzend veredelt. Optional einseitig oder beidseitig bedruckbar.",
-
+          "description": "Visitenkarten sind der erste Eindruck den du hinterlässt und wir sorgen dafür dass er professionell wirkt. Wir drucken deine Visitenkarten auf stabilem hochwertigen Karton und in verschiedenen Formaten. Du kannst einseitigen oder zweiseitigen Druck wählen und auf Wunsch besondere Veredelungen hinzufügen wie edle Oberflächen oder spezielle Akzente. Klare Farben präziser Druck und saubere Kanten sorgen dafür dass deine Karte in Erinnerung bleibt. Perfekt für Unternehmen Selbstständige Veranstaltungen und Messen.",
           "formate": [
             "85 × 55 mm",
             "90 × 50 mm",
@@ -240,28 +235,23 @@
             "50 × 90 mm",
             "55 × 55 mm"
           ],
-
           "bedruckt": [
             "einseitig",
             "zweiseitig"
           ],
-
           "priceTable": [
-            { "qty": "100",   "from": "ab 13,99 €" },
-            { "qty": "250",   "from": "ab 18,99 €" },
-            { "qty": "500",   "from": "ab 23,99 €" },
+            { "qty": "100", "from": "ab 13,99 €" },
+            { "qty": "250", "from": "ab 18,99 €" },
+            { "qty": "500", "from": "ab 23,99 €" },
             { "qty": "1.000", "from": "ab 26,99 €" },
             { "qty": "2.000", "from": "ab 27,99 €" },
             { "qty": "5.000", "from": "ab 43,99 €" },
             { "qty": "10.000", "from": "ab 69,99 €" },
             { "qty": "> 10.000", "from": "Preis anfragen" }
           ],
-
           "properties": [
             { "label": "Papier", "value": "350 g/m² Bilderdruckkarton (matt oder glänzend)" },
-            { "label": "Druck", "value": "4/4-farbig oder 4/0-farbig (CMYK)" },
-            { "label": "Veredelungen", "value": "Optional: Softtouch, UV-Spot, Prägungen" },
-            { "label": "Optionen", "value": "Runde Ecken, Expressproduktion" }
+            { "label": "Druck", "value": "4/4-farbig oder 4/0-farbig (CMYK)" }
           ]
         }
       ]
@@ -274,34 +264,29 @@
       "badges": ["Outdoor-tauglich", "Kleinstmengen"],
       "products": [
         {
-          "name": "Sticker Bogenware",
+          "name": "Sticker",
           "summary": "Freie Formen, UV-beständig",
           "image": "images/services/sticker.png",
           "priceFrom": "ab 16,99 €",
-
-          "description": "Witterungsbeständige Aufkleber auf Bogen – ideal für Innen- und Außeneinsatz. In rund, oval oder rechteckig und nahezu jeder Wunschgröße ab 3 mm, konturgeschnitten nach deinem Motiv.",
-
+          "description": "Aufkleber eignen sich ideal für Werbung Kennzeichnung und Branding auf nahezu jeder glatten Oberfläche. Wir produzieren sie in frei wählbaren Größen und Formen und schneiden sie exakt nach deinem Motiv zu. Das Material ist robust wetterfest und UV beständig und eignet sich sowohl für den Innenbereich als auch für den Außeneinsatz. Dank hochwertigem Vierfarbdruck erscheinen Farben kräftig und Details scharf. Perfekt für Produkte Verpackungen Geräte Fahrzeuge oder als Werbegiveaway.",
           "formate": [
             "Rund",
             "Oval",
             "Rechteckig"
           ],
-
           "groessen": [
             "Jede Größe ab 3 mm (frei wählbar)"
           ],
-
           "priceTable": [
-            { "qty": "100",    "from": "ab 16,99 €" },
-            { "qty": "250",    "from": "ab 21,99 €" },
-            { "qty": "500",    "from": "ab 29,99 €" },
-            { "qty": "1.000",  "from": "ab 47,99 €" },
-            { "qty": "2.000",  "from": "ab 82,99 €" },
-            { "qty": "5.000",  "from": "ab 188,99 €" },
+            { "qty": "100", "from": "ab 16,99 €" },
+            { "qty": "250", "from": "ab 21,99 €" },
+            { "qty": "500", "from": "ab 29,99 €" },
+            { "qty": "1.000", "from": "ab 47,99 €" },
+            { "qty": "2.000", "from": "ab 82,99 €" },
+            { "qty": "5.000", "from": "ab 188,99 €" },
             { "qty": "10.000", "from": "ab 363,99 €" },
             { "qty": "> 10.000", "from": "Preis anfragen" }
           ],
-
           "properties": [
             { "label": "Oberfläche", "value": "matt oder glänzend" },
             { "label": "Zuschnitt", "value": "konturgeschnitten auf Bogen" },
@@ -318,98 +303,87 @@
       "badges": ["Einzelnamensdruck", "Schnelle Lieferung"],
       "products": [
         {
-          "name": "Kugelschreiber Beanana",
+          "name": "Kugelschreiber Basic Line",
           "summary": "Kunststoff-Kugelschreiber mit Metallclip – individuell bedruckbar",
           "image": "images/services/kugelschreiber2.png",
-
-          "description": "Druckkugelschreiber aus Kunststoff mit Metall-Clip und -Spitze. Blauschreibende, austauschbare Mine. Rechts vom Clip zweifarbig bedruckbar. Einfache Gestaltung direkt im Browser möglich. Optional bieten wir Ihnen einen kompletten Designservice ab 39 €.",
-
+          "description": "Der Kugelschreiber Basic Line ist die ideale Wahl für preisbewusste Werbeaktionen. Das leichte Kunststoffgehäuse und der Metallclip sorgen für ein angenehmes Schreibgefühl. Er liegt gut in der Hand und ist in vielen Farben erhältlich. Die Werbefläche bietet genug Platz für ein Logo oder einen kurzen Slogan. Ein zuverlässiger Allrounder für Messen, Events und den täglichen Gebrauch.",
           "colors": [
-            { "name": "weiß",       "hex": "#FFFFFF" },
-            { "name": "rot",        "hex": "#E2001A" },
-            { "name": "blau",       "hex": "#0057B7" },
-            { "name": "hellblau",   "hex": "#7EC8E3" },
+            { "name": "weiß", "hex": "#FFFFFF" },
+            { "name": "rot", "hex": "#E2001A" },
+            { "name": "blau", "hex": "#0057B7" },
+            { "name": "hellblau", "hex": "#7EC8E3" },
             { "name": "dunkelblau", "hex": "#0B1D3A" },
-            { "name": "türkis",     "hex": "#2EC4B6" },
-            { "name": "grün",       "hex": "#007F3D" },
-            { "name": "apfelgrün",  "hex": "#8CC63F" },
-            { "name": "gelb",       "hex": "#FFD400" },
-            { "name": "orange",     "hex": "#FF7A00" },
-            { "name": "pink",       "hex": "#FF66B3" },
-            { "name": "violett",    "hex": "#7A3E9D" },
-            { "name": "schwarz",    "hex": "#000000" },
-            { "name": "burgund",    "hex": "#751D32" }
+            { "name": "türkis", "hex": "#2EC4B6" },
+            { "name": "grün", "hex": "#007F3D" },
+            { "name": "apfelgrün", "hex": "#8CC63F" },
+            { "name": "gelb", "hex": "#FFD400" },
+            { "name": "orange", "hex": "#FF7A00" },
+            { "name": "pink", "hex": "#FF66B3" },
+            { "name": "violett", "hex": "#7A3E9D" },
+            { "name": "schwarz", "hex": "#000000" },
+            { "name": "burgund", "hex": "#751D32" }
           ],
-
           "priceTable": [
-            { "qty": "25",   "from": "ab 56,99 €" },
-            { "qty": "50",   "from": "ab 79,99 €" },
-            { "qty": "100",  "from": "ab 99,99 €" },
-            { "qty": "250",  "from": "ab 184,99 €" },
-            { "qty": "500",  "from": "ab 282,99 €" },
-            { "qty": "1.000","from": "ab 473,99 €" },
-            { "qty": "> 1.000","from": "Preis anfragen" }
+            { "qty": "25", "from": "ab 56,99 €" },
+            { "qty": "50", "from": "ab 79,99 €" },
+            { "qty": "100", "from": "ab 99,99 €" },
+            { "qty": "250", "from": "ab 184,99 €" },
+            { "qty": "500", "from": "ab 282,99 €" },
+            { "qty": "1.000", "from": "ab 473,99 €" },
+            { "qty": "> 1.000", "from": "Preis anfragen" }
           ],
-
           "properties": [
             { "label": "Material", "value": "Kunststoffschaft, Clip & Spitze aus Metall" },
             { "label": "Mine", "value": "blauschreibend, austauschbar" },
-            { "label": "Druckposition", "value": "rechts vom Clip, zweifarbig" }
+            { "label": "Druckposition", "value": "rechts vom Clip, ein- bzw. zweifarbig" }
           ]
         },
-
         {
-          "name": "Kugelschreiber Baltimore",
+          "name": "Kugelschreiber Business Style",
           "summary": "Stilvoller Werbekugelschreiber mit Metalloptik",
           "image": "images/services/kugelschreiber1.png",
-
+          "description": "Der Kugelschreiber Business Style verbindet moderne Optik mit hochwertiger Verarbeitung. Das Gehäuse in Metalloptik verleiht dem Stift eine edle Wirkung, während die weiche Schreibeigenschaft sofort auffällt. Er eignet sich ideal für Unternehmen, die ihren Kunden einen wertigen und dennoch preislich attraktiven Stift anbieten möchten. Mit personalisierter Werbefläche wird er zu einem stilvollen Markenbotschafter.",
           "colors": [
-            { "name": "weiß",   "hex": "#FFFFFF" },
-            { "name": "schwarz","hex": "#000000" },
-            { "name": "rot",    "hex": "#E2001A" },
-            { "name": "blau",   "hex": "#0057B7" },
-            { "name": "grün",   "hex": "#007F3D" },
+            { "name": "weiß", "hex": "#FFFFFF" },
+            { "name": "schwarz", "hex": "#000000" },
+            { "name": "rot", "hex": "#E2001A" },
+            { "name": "blau", "hex": "#0057B7" },
+            { "name": "grün", "hex": "#007F3D" },
             { "name": "orange", "hex": "#FF7A00" },
-            { "name": "grau",   "hex": "#7A7A7A" }
+            { "name": "grau", "hex": "#7A7A7A" }
           ],
-
           "priceTable": [
-            { "qty": "50",   "from": "ab 136,99 €" },
-            { "qty": "100",  "from": "ab 159,99 €" },
-            { "qty": "250",  "from": "ab 219,99 €" },
-            { "qty": "500",  "from": "ab 355,99 €" },
-            { "qty": "1.000","from": "ab 627,99 €" },
-            { "qty": "> 1.000","from": "Preis nachfragen" }
+            { "qty": "50", "from": "ab 136,99 €" },
+            { "qty": "100", "from": "ab 159,99 €" },
+            { "qty": "250", "from": "ab 219,99 €" },
+            { "qty": "500", "from": "ab 355,99 €" },
+            { "qty": "1.000", "from": "ab 627,99 €" },
+            { "qty": "> 1.000", "from": "Preis anfragen" }
           ],
-
           "properties": [
-            { "label": "Design", "value": "Elegante Metall-Optik" },
-            { "label": "Druck", "value": "Seitlicher Werbedruck möglich" }
+            { "label": "Design", "value": "Metall-Optik" },
+            { "label": "Druckposition", "value": "rechts vom Clip, ein- bzw. zweifarbig" }
           ]
         },
-
         {
-          "name": "Premium Kugelschreiber",
+          "name": "Kugelschreiber Executive Edition",
           "summary": "Exklusiver Premium-Stift – ideal für hochwertige Kundengeschenke",
           "image": "images/services/kugelschreiber3.png",
-
+          "description": "Der Kugelschreiber Executive Edition steht für höchste Qualität und exklusives Design. Sein präzise gefertigtes Gehäuse und die geschmeidige Schrift machen ihn zu einem eleganten Geschenk für besondere Anlässe. Dieser Stift vermittelt Wertschätzung und Professionalität und ist ideal für hochwertige Kundengeschenke oder repräsentative Einsätze. Mit individuellem Druck wird er zu einem Premium Werbeartikel auf höchstem Niveau.",
           "colors": [
-            { "name": "weiß",       "hex": "#FFFFFF" }
+            { "name": "weiß", "hex": "#FFFFFF" }
           ],
-
           "priceTable": [
-            { "qty": "25",   "from": "ab 79,99 €" },
-            { "qty": "50",   "from": "ab 154,99 €" },
-            { "qty": "100",  "from": "ab 299,99 €" },
-            { "qty": "250",  "from": "ab 746,99 €" },
-            { "qty": "500",  "from": "ab 1.492,99 €" },
-            { "qty": "> 500","from": "Preis nachfragen" }
+            { "qty": "25", "from": "ab 79,99 €" },
+            { "qty": "50", "from": "ab 154,99 €" },
+            { "qty": "100", "from": "ab 299,99 €" },
+            { "qty": "250", "from": "ab 746,99 €" },
+            { "qty": "500", "from": "ab 1.492,99 €" },
+            { "qty": "> 500", "from": "Preis anfragen" }
           ],
-
           "properties": [
-            { "label": "Kategorie", "value": "Premium Werbekugelschreiber" },
-            { "label": "Druck", "value": "Hochwertiger Werbedruck möglich" },
-            { "label": "Material", "value": "Exklusives Gehäuse (hochwertige Verarbeitung)" }
+            { "label": "Material", "value": "Hochwertiges Gehäuse" },
+            { "label": "Druck", "value": "Vorderseite vierfarbig bedruckt" }
           ]
         }
       ]
@@ -422,38 +396,35 @@
       "badges": ["Bio-Baumwolle", "Mehrweg"],
       "products": [
         {
-          "name": "Baumwoll-Einkaufstasche COTTONEL 140 g/m²",
+          "name": "Budget Baumwolltasche",
           "model": "GiftRetail MO9267",
           "summary": "Shopping Tasche mit langen Henkeln aus 140 g/m² Baumwolle.",
           "image": "images/services/tasche1.png",
-          "description": "Robuste Baumwoll-Einkaufstasche aus 140 g/m² Baumwolle mit langen Tragegriffen. Größe 38 × 42 cm, hoher Lagerbestand und ideal für Werbedruck. Produziert gemäß zertifiziertem Standard für die Verwendung von Schadstoffen in Textilien.",
+          "description": "Diese leichte Baumwolltasche ist ideal für einfache Werbeaktionen und günstige Giveaways. Sie besteht aus einem weichen Baumwollmaterial und bietet ausreichend Platz für deinen Aufdruck. Durch die langen Tragegriffe lässt sie sich bequem über der Schulter tragen. Eine zuverlässige und preiswerte Lösung für Veranstaltungen Messen und den täglichen Gebrauch.",
           "colors": [
             { "name": "Beige / Natur", "hex": "#e7ddc5" }
           ],
           "size": "38 × 42 cm",
           "priceTable": [
-            { "qty": "1–8",   "onePos": "6,49 €", "twoPos": "9,99 €" },
-            { "qty": "9–32",  "onePos": "4,99 €", "twoPos": "6,99 €" },
+            { "qty": "1–8", "onePos": "6,49 €", "twoPos": "9,99 €" },
+            { "qty": "9–32", "onePos": "4,99 €", "twoPos": "6,99 €" },
             { "qty": "33–72", "onePos": "3,99 €", "twoPos": "5,99 €" },
-            { "qty": "> 72",  "onePos": "3,49 €", "twoPos": "5,49 €" }
+            { "qty": "> 72", "onePos": "3,49 €", "twoPos": "5,49 €" }
           ],
           "properties": [
             { "label": "Material", "value": "100% Baumwolle" },
             { "label": "Grammatur", "value": "140 g/m²" },
             { "label": "Format", "value": "38 × 42 cm" },
             { "label": "Henkel", "value": "Lange Tragegriffe" },
-            { "label": "Druck", "value": "1- oder 2-seitiger Werbedruck möglich" },
-            { "label": "Zertifizierung", "value": "Produziert gemäß zertifiziertem Standard für die Verwendung von Schadstoffen in Textilien" }
+            { "label": "Druck", "value": "1- oder 2-seitiger Werbedruck möglich" }
           ]
         },
         {
-          "name": "Premium Cotton Bag",
+          "name": "Premium Baumwolltasche",
           "model": "Westford Mill W201",
           "summary": "Premium Baumwolltasche aus 200 g/m² Baumwolle mit langen Henkeln.",
           "image": "images/services/tasche2.png",
-
-          "description": "Hochwertige Premium-Baumwolltasche aus 200 g/m² Baumwolle mit langen Henkeln. Besonders strapazierfähig, ideal für hochwertige Werbeartikel und langlebige Einkaufstaschen. OEKO-TEX® zertifiziert, 1-farbig erhältlich.",
-
+          "description": "Diese hochwertige Baumwolltasche ist besonders strapazierfähig und für den dauerhaften Einsatz gedacht. Das feste Gewebe sorgt für Stabilität und eine edle Haptik. Dank der langen Henkel und der widerstandsfähigen Verarbeitung ist sie die ideale Wahl für hochwertige Werbeartikel oder den täglichen Einkauf. Dein Motiv wird gestochen scharf gedruckt und bleibt auch bei häufigem Gebrauch gut sichtbar.",
           "colors": [
             { "name": "Black", "hex": "#000000" },
             { "name": "Bottle Green", "hex": "#234f33" },
@@ -465,34 +436,28 @@
             { "name": "Natural", "hex": "#f2ead8" },
             { "name": "White", "hex": "#ffffff" }
           ],
-
           "size": "38 × 42 cm",
-
           "priceTable": [
-            { "qty": "1–8",   "onePos": "7,49 €", "twoPos": "10,99 €" },
-            { "qty": "9–32",  "onePos": "5,99 €", "twoPos": "7,99 €" },
+            { "qty": "1–8", "onePos": "7,49 €", "twoPos": "10,99 €" },
+            { "qty": "9–32", "onePos": "5,99 €", "twoPos": "7,99 €" },
             { "qty": "33–72", "onePos": "4,99 €", "twoPos": "6,99 €" },
-            { "qty": "> 72",  "onePos": "4,49 €", "twoPos": "6,49 €" }
+            { "qty": "> 72", "onePos": "4,49 €", "twoPos": "6,49 €" }
           ],
-
           "properties": [
             { "label": "Material", "value": "100% Baumwolle" },
             { "label": "Grammatur", "value": "200 g/m²" },
-            { "label": "Zertifikate", "value": "OEKO-TEX® STANDARD 100" },
-            { "label": "Farbigkeit", "value": "1-farbig" },
+            { "label": "Format", "value": "38 × 42 cm" },
             { "label": "Henkel", "value": "Lange Tragegriffe" },
-            { "label": "Kategorie", "value": "Baumwolltaschen, Einkaufstaschen" },
-            { "label": "Pflege", "value": "Nicht waschbar, nicht bügeln, nicht bleichen, nicht im Trockner" }
+            { "label": "Druck", "value": "1- oder 2-seitiger Werbedruck möglich" },
+            { "label": "Zertifikate", "value": "OEKO-TEX® STANDARD 100" }
           ]
         },
         {
-          "name": "Fairtrade Cotton Bag Long Handles",
+          "name": "Bio Fairtrade Tasche",
           "model": "XT600N",
           "summary": "Fairtrade-zertifizierte Bio-Baumwolltasche mit langen Henkeln.",
           "image": "images/services/tasche3.png",
-
-          "description": "Nachhaltige Einkaufstasche aus Fairtrade-zertifizierter Baumwolle (145 g/m²) mit langen Henkeln. Produziert unter fairen Arbeitsbedingungen und OEKO-TEX® STANDARD 100 zertifiziert. Perfekt als hochwertige Werbe- oder Einkaufstasche.",
-
+          "description": "Eine nachhaltige Tragetasche aus zertifizierter Bio Baumwolle und unter fairen Bedingungen hergestellt. Das Material ist angenehm stabil und bietet eine natürliche hochwertige Optik. Ideal für Marken und Projekte die Wert auf Verantwortung und Qualität legen. Die Tasche eignet sich hervorragend für umweltbewusste Werbemittel und moderne Merch Artikel.",
           "colors": [
             { "name": "Black", "hex": "#000000" },
             { "name": "Burgundy", "hex": "#751d32" },
@@ -508,20 +473,19 @@
           "size": "ca. 38 × 42 cm",
 
           "priceTable": [
-            { "qty": "1–8",   "onePos": "7,49 €", "twoPos": "10,99 €" },
-            { "qty": "9–32",  "onePos": "5,99 €", "twoPos": "7,99 €" },
+            { "qty": "1–8", "onePos": "7,49 €", "twoPos": "10,99 €" },
+            { "qty": "9–32", "onePos": "5,99 €", "twoPos": "7,99 €" },
             { "qty": "33–72", "onePos": "4,99 €", "twoPos": "6,99 €" },
-            { "qty": "> 72",  "onePos": "4,49 €", "twoPos": "6,49 €" }
+            { "qty": "> 72", "onePos": "4,49 €", "twoPos": "6,49 €" }
           ],
 
           "properties": [
-            { "label": "Material", "value": "100% Fairtrade-zertifizierte Baumwolle" },
+            { "label": "Material", "value": "100% Fairtrade-zertifizierte Bio Baumwolle" },
             { "label": "Grammatur", "value": "145 g/m²" },
-            { "label": "Zertifikate", "value": "Fairtrade Cotton, Bio-Baumwolle, OEKO-TEX® STANDARD 100: 15.0.68301 Hohenstein" },
+            { "label": "Format", "value": "38 × 42 cm" },
             { "label": "Henkel", "value": "Lange Tragegriffe" },
-            { "label": "Farbigkeit", "value": "1-farbig" },
-            { "label": "Pflege", "value": "Nicht waschen, nicht bleichen, nicht bügeln" },
-            { "label": "Kategorie", "value": "Baumwolltaschen, Einkaufstaschen" }
+            { "label": "Druck", "value": "1- oder 2-seitiger Werbedruck möglich" },
+            { "label": "Zertifikate", "value": "Fairtrade Cotton, Bio-Baumwolle, OEKO-TEX® STANDARD 100" }
           ]
         }
       ]
@@ -534,13 +498,13 @@
       "badges": ["Vollfarb-Druck", "Spülmaschinenfest"],
       "products": [
         {
-          "name": "Keramik-Tasse 350 ml (Egotier 93990)",
+          "name": "Tassen",
           "summary": "Weiße Keramiktasse, 350 ml, ideal für Sublimationsdruck.",
           "image": "images/services/tasse.png",
           "priceFrom": "ab 4,99 €",
 
           "priceTable": [
-            { "qty": "1–19",  "from": "ab 4,99 €" },
+            { "qty": "1–19", "from": "ab 4,99 €" },
             { "qty": "20–100", "from": "ab 3,99 €" },
             { "qty": "> 100", "from": "ab 3,49 €" }
           ],
@@ -549,23 +513,18 @@
             "Füllmenge: 350 ml",
             "Farbe: Weiß",
             "Geeignet für Sublimationsdruck",
-            "Spülmaschinengeeignet (mind. 250 Waschgänge, EN12875-1)",
-            "Geliefert in Geschenkschachtel"
+            "Spülmaschinengeeignet (mind. 250 Waschgänge, EN12875-1)"
           ],
-          "description": "Weiße Keramiktasse (350 ml) für hochwertigen Sublimationsdruck. Spülmaschinengeeignet und getestet für mindestens 250 Waschgänge gemäß EN12875-1. Lieferung in einer Geschenkschachtel – ideal für Werbegeschenke, Merch und personalisierte Designs.",
+          "description": "Personalisierte Tassen sind langlebige Werbeträger und ideale Geschenkartikel für Unternehmen Vereine und Events. Wir veredeln deine Tassen mit hochwertigem vollfarbigem Druck der besonders klar und brillant wirkt. Jede Tasse ist spülmaschinenfest und wird einzeln verpackt damit sie sicher bei dir ankommt. Ob für Merch Kundenpräsente oder das eigene Team wir sorgen dafür dass dein Motiv sauber scharf und farbstark umgesetzt wird.",
           "colors": [
             { "name": "Weiß", "hex": "#ffffff" }
           ],
           "properties": [
-            { "label": "Modell", "value": "Egotier 93990" },
             { "label": "Material", "value": "Keramik" },
             { "label": "Füllmenge", "value": "350 ml" },
             { "label": "Farbe", "value": "Weiß" },
-            { "label": "Gewicht", "value": "ca. 336 g" },
-            { "label": "Druckverfahren", "value": "Geeignet für Sublimationsdruck (im Preis einkalkuliert)" },
-            { "label": "Spülmaschine", "value": "Spülmaschinengeeignet, mind. 250 Waschgänge gemäß EN12875-1" },
-            { "label": "Verpackung", "value": "Einzeln in Geschenkschachtel" },
-            { "label": "Bestand", "value": "Hoher Lagerbestand" }
+            { "label": "Druckverfahren", "value": "Sublimationsdruck" },
+            { "label": "Spülmaschine", "value": "mind. 250 Waschgänge (EN12875-1)" }
           ]
         }
       ]
@@ -582,7 +541,7 @@
           "model": "",
           "category": "tshirt",
           "image": "images/services/tshirt1.png",
-          "description": "Klassisches Rundhals-Shirt, 100% Baumwolle, 185 g/m², einlaufvorbehandelt.",
+          "description": "Ein vielseitiges T Shirt aus reiner Baumwolle mit angenehmer Stoffstärke. Es bietet einen bequemen Rundhalsausschnitt und kurze Ärmel und ist ideal für Teams Events und Promotion. Dank der großen Farbauswahl und der hohen Druckqualität eignet es sich hervorragend für individuelle Motive Firmenlogos oder Vereinsdesigns.",
           "colors": [
             { "name": "Apricot", "hex": "#f5b185" },
             { "name": "Ash (Heather)", "hex": "#e3e3e3" },
@@ -626,17 +585,17 @@
             { "name": "White", "hex": "#ffffff" }
           ],
           "priceTable": [
-            { "qty": "1–6",  "onePos": "19,99 €", "twoPos": "24,99 €" },
+            { "qty": "1–6", "onePos": "19,99 €", "twoPos": "24,99 €" },
             { "qty": "7–30", "onePos": "17,99 €", "twoPos": "20,99 €" },
             { "qty": "31-60", "onePos": "15,99 €", "twoPos": "17,99 €" },
             { "qty": "> 60", "onePos": "13,99 €", "twoPos": "15,99 €" }
           ],
           "properties": [
-            { "label": "Material", "value": "100% Baumwolle (185 g/m²)" },
-            { "label": "Schnitt", "value": "Rundhals, Set-In, kurzarm" },
+            { "label": "Material", "value": "100% Baumwolle" },
+            { "label": "Grammatur", "value": "185 g/m²" },
+            { "label": "Schnitt", "value": "Rundhals, kurzarm" },
             { "label": "Größen", "value": "XS–5XL (je nach Farbe)" },
-            { "label": "Pflege", "value": "40 °C waschbar, trocknergeeignet" },
-            { "label": "Zertifikate", "value": "OEKO-TEX® 100, Faire Arbeitsbedingungen" }
+            { "label": "Zertifikate", "value": "OEKO-TEX® 100" }
           ]
         },
         {
@@ -644,37 +603,31 @@
           "model": "",
           "category": "tshirt",
           "image": "images/services/tshirt2.png",
-          "description": "Bio-Baumwolle, 215 g/m² (White: 205 g/m²), relaxed fit, OEKO-TEX® 100.",
+          "description": "Ein hochwertiges T Shirt aus feiner Bio Baumwolle mit weicher Haptik und modernem Schnitt. Der Stoff ist etwas schwerer und sorgt für ein angenehmes und langlebiges Tragegefühl. Dieses Shirt eignet sich ideal für nachhaltige Projekte hochwertige Merchandise Artikel und alle die Wert auf komfortable Qualität legen.",
           "colors": [
-            { "name": "Blue Lilac",   "hex": "#8aa3d9" },
-            { "name": "Bordeaux",     "hex": "#5a1a2a" },
-            { "name": "Deep Black",   "hex": "#000000" },
-            { "name": "Gunmetal",     "hex": "#5a5f66" },
+            { "name": "Blue Lilac", "hex": "#8aa3d9" },
+            { "name": "Bordeaux", "hex": "#5a1a2a" },
+            { "name": "Deep Black", "hex": "#000000" },
+            { "name": "Gunmetal", "hex": "#5a5f66" },
             { "name": "Heather Grey", "hex": "#b1b5ba" },
-            { "name": "Natural",      "hex": "#f4f1e0" },
+            { "name": "Natural", "hex": "#f4f1e0" },
             { "name": "Nature Green", "hex": "#3a7d3a" },
-            { "name": "Pistachio",    "hex": "#a8e6a3" },
-            { "name": "True Navy",    "hex": "#0b1d3a" },
-            { "name": "White",        "hex": "#ffffff" }
+            { "name": "Pistachio", "hex": "#a8e6a3" },
+            { "name": "True Navy", "hex": "#0b1d3a" },
+            { "name": "White", "hex": "#ffffff" }
           ],
           "priceTable": [
-            { "qty": "1–6",  "onePos": "20,99 €", "twoPos": "25,99 €" },
+            { "qty": "1–6", "onePos": "20,99 €", "twoPos": "25,99 €" },
             { "qty": "7–30", "onePos": "18,99 €", "twoPos": "21,99 €" },
             { "qty": "31-60", "onePos": "16,99 €", "twoPos": "18,99 €" },
             { "qty": "> 60", "onePos": "14,99 €", "twoPos": "16,99 €" }
           ],
           "properties": [
-            { "label": "Material",        "value": "Jersey, 100% Baumwolle (Bio)" },
-            { "label": "Grammatur",       "value": "215 g/m² (White: 205 g/m²)" },
-            { "label": "Zertifizierung",  "value": "Bio-Baumwolle, OEKO-TEX® STANDARD 100: 25.HEG.95814 Hohenstein" },
-            { "label": "Ausschnitt",      "value": "Rundhals, Nackenband" },
-            { "label": "Ärmel",           "value": "Kurzarm, Set-In" },
-            { "label": "Farbigkeit",      "value": "1-farbig; melierte Varianten verfügbar" },
-            { "label": "Pflege",          "value": "40 °C waschbar; nicht im Trockner; Bügeln mittel (max. 150 °C)" },
-            { "label": "Funktion",        "value": "Atmungsaktiv" },
-            { "label": "Label",           "value": "Heraustrennbares Label" },
-            { "label": "Passform",        "value": "Regular / Relaxed" },
-            { "label": "Größenlauf",      "value": "S, M, L, XL, XXL" }
+            { "label": "Material", "value": "Jersey, 100% Baumwolle (Bio)" },
+            { "label": "Grammatur", "value": "215 g/m² (White: 205 g/m²)" },
+            { "label": "Zertifizierung", "value": "OEKO-TEX® STANDARD 100" },
+            { "label": "Passform", "value": "Regular / Relaxed" },
+            { "label": "Größenlauf", "value": "S, M, L, XL, XXL" }
           ]
         },
         {
@@ -682,7 +635,7 @@
           "model": "",
           "category": "hoodie",
           "image": "images/services/hoodie1.png",
-          "description": "Unisex Hoodie, 300 g/m², weiches, innen angerautes Fleece – ideal für Promotion, Freizeit & Teams.",
+          "description": "Ein gemütlicher Hoodie aus Bio Baumwolle und recyceltem Material mit angenehm weichem Stoff innen. Der Schnitt ist bequem und für viele Einsatzzwecke geeignet von Teams über Vereine bis zu Merch Projekten. Er bietet eine klare Oberfläche für präzise Drucke und sorgt für langlebigen Tragekomfort.",
           "colors": [
             { "name": "Bottle Green", "hex": "#145c37" },
             { "name": "Bright Blue", "hex": "#1e73be" },
@@ -693,7 +646,7 @@
             { "name": "White", "hex": "#ffffff" }
           ],
           "priceTable": [
-            { "qty": "1–6",  "onePos": "29,99 €", "twoPos": "34,99 €" },
+            { "qty": "1–6", "onePos": "29,99 €", "twoPos": "34,99 €" },
             { "qty": "7–30", "onePos": "27,99 €", "twoPos": "30,99 €" },
             { "qty": "31-60", "onePos": "25,99 €", "twoPos": "27,99 €" },
             { "qty": "> 60", "onePos": "23,99 €", "twoPos": "25,99 €" }
@@ -701,14 +654,9 @@
           "properties": [
             { "label": "Material", "value": "55% Bio-Baumwolle / 20% recycelte Baumwolle / 25% recycelter Polyester" },
             { "label": "Grammatur", "value": "300 g/m²" },
-            { "label": "Zertifikate", "value": "Bio-Baumwolle, recycelte Baumwolle, recycelter Polyester, OEKO-TEX® STANDARD 100" },
-            { "label": "Kapuze", "value": "Doppellagige Kapuze mit Fleecefutter, Kordelzug mit silberfarbenen Ösen und Kordelenden" },
-            { "label": "Verarbeitung", "value": "Gekämmte Baumwolle, innen angerautes Fleece, 3-fädiges Garn" },
-            { "label": "Ärmel & Bund", "value": "Set-In-Ärmel, Rippbündchen an Ärmeln und Saum mit Elastan" },
-            { "label": "Passform", "value": "Unisex, großzügiger/regular Schnitt" },
-            { "label": "Größenlauf", "value": "S, M, L, XL, XXL, 3XL" },
-            { "label": "Pflege", "value": "40 °C waschbar, trocknergeeignet, Bügeln mittel (bis 150 °C)" },
-            { "label": "Label", "value": "Heraustrennbares Label – ideal für Rebranding" }
+            { "label": "Zertifikate", "value": "OEKO-TEX® STANDARD 100" },
+            { "label": "Passform", "value": "Unisex, regular Schnitt" },
+            { "label": "Größenlauf", "value": "S, M, L, XL, XXL, 3XL" }
           ]
         },
         {
@@ -716,12 +664,12 @@
           "model": "",
           "category": "hoodie",
           "image": "images/services/hoodie2.png",
-          "description": "Schwerer Organic Unisex Hoodie aus Bio- und Recycling-Baumwolle, 400 g/m², wasserabweisend – ideal für hochwertige Merch- & Team-Bekleidung.",
+          "description": "Ein besonders schwerer und warmhaltender Hoodie aus nachhaltigen Materialien. Er überzeugt mit dichtem Stoff hoher Stabilität und einer hochwertigen Verarbeitung. Ideal für alle die einen robusten und langlebigen Hoodie für kühle Tage suchen und Wert auf nachhaltige Qualität legen.",
           "colors": [
             { "name": "Deep Black", "hex": "#000000" }
           ],
           "priceTable": [
-            { "qty": "1–6",  "onePos": "35,99 €", "twoPos": "40,99 €" },
+            { "qty": "1–6", "onePos": "35,99 €", "twoPos": "40,99 €" },
             { "qty": "7–30", "onePos": "33,99 €", "twoPos": "36,99 €" },
             { "qty": "31-60", "onePos": "31,99 €", "twoPos": "33,99 €" },
             { "qty": "> 60", "onePos": "29,99 €", "twoPos": "31,99 €" }
@@ -729,16 +677,9 @@
           "properties": [
             { "label": "Material", "value": "75% Baumwolle (Bio & recycelt) / 25% recycelter Polyester" },
             { "label": "Grammatur", "value": "400 g/m²" },
-            { "label": "Zertifikate", "value": "Bio-Baumwolle, recycelte Baumwolle, recycelter Polyester, OEKO-TEX® STANDARD 100: 25.HEG.95814 Hohenstein" },
-            { "label": "Farbigkeit", "value": "1-farbig" },
+            { "label": "Zertifikate", "value": "OEKO-TEX® STANDARD 100" },
             { "label": "Funktion", "value": "Wasserabweisend" },
-            { "label": "Sweatshirt-Art", "value": "Unisex Hoodie" },
-            { "label": "Kapuze", "value": "Mit Kapuze" },
-            { "label": "Ärmel & Bund", "value": "Set-In-Ärmel mit Bündchen" },
-            { "label": "Verarbeitung", "value": "Gekämmte Baumwolle" },
-            { "label": "Größenlauf", "value": "XS, S, M, L, XL, XXL, 3XL" },
-            { "label": "Pflege", "value": "40 °C waschbar, trocknergeeignet, Bügeln mittel (bis 150 °C)" },
-            { "label": "Label", "value": "Heraustrennbares Label – ideal für Rebranding" }
+            { "label": "Größenlauf", "value": "XS, S, M, L, XL, XXL, 3XL" }
           ]
         },
         {
@@ -746,7 +687,7 @@
           "model": "",
           "category": "hoodie",
           "image": "images/services/hoodie3.png",
-          "description": "Schwerer Oversized Hoodie aus 100% Baumwolle, 450 g/m², French Terry (nicht angeraut) – ideal für hochwertigen Streetwear-Look.",
+          "description": "Ein extra schwerer und moderner Hoodie im angesagten Oversize Stil. Der feste Stoff sorgt für ein hochwertiges Tragegefühl und eignet sich perfekt für trendige Streetwear und Premium Merch. Die klare und glatte Oberfläche bietet beste Voraussetzungen für individuelle Drucke und edle Designs.",
           "colors": [
             { "name": "Black", "hex": "#000000" },
             { "name": "Bright Red", "hex": "#e82929" },
@@ -756,7 +697,7 @@
             { "name": "White", "hex": "#ffffff" }
           ],
           "priceTable": [
-            { "qty": "1–6",  "onePos": "39,99 €", "twoPos": "44,99 €" },
+            { "qty": "1–6", "onePos": "39,99 €", "twoPos": "44,99 €" },
             { "qty": "7–30", "onePos": "37,99 €", "twoPos": "40,99 €" },
             { "qty": "31-60", "onePos": "35,99 €", "twoPos": "37,99 €" },
             { "qty": "> 60", "onePos": "33,99 €", "twoPos": "35,99 €" }
@@ -765,13 +706,7 @@
             { "label": "Material", "value": "100% Baumwolle (French Terry, innen nicht angeraut)" },
             { "label": "Grammatur", "value": "450 g/m²" },
             { "label": "Passform", "value": "Oversize" },
-            { "label": "Zertifikate", "value": "Vegan, Faire Arbeitsbedingungen, OEKO-TEX® STANDARD 100: CQ 1094/1 IFHT" },
-            { "label": "Kapuze", "value": "Mit Kapuze" },
-            { "label": "Ärmel", "value": "Set-In" },
-            { "label": "Verarbeitung", "value": "French Terry (innen nicht angeraut)" },
-            { "label": "Ausschnitt", "value": "Mit Nackenband" },
-            { "label": "Pflege", "value": "60 °C waschbar; nicht im Trockner; Bügeln kalt (bis 110 °C)" },
-            { "label": "Label", "value": "Heraustrennbares Label – ideal für Rebranding" },
+            { "label": "Zertifikate", "value": "OEKO-TEX® STANDARD 100" },
             { "label": "Größenlauf", "value": "XS, S, M, L, XL, XXL" }
           ]
         }

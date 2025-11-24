@@ -193,9 +193,9 @@
   }
 
   /* Hover: Bild zoomt stark heraus */
-  .product-card__media:hover img {
-    transform: scale(1.6);                /* größerer Zoom */
-    z-index: 9999;                        /* über ALLEM */
+  .product-card__media img:hover {
+    transform: scale(1.6);
+    z-index: 9999;
     box-shadow: 0 18px 40px rgba(0,0,0,0.35);
     border-radius: 12px;
   }
@@ -394,6 +394,7 @@
           ${renderOptionSwatches('Format', p.formate)}
           ${renderOptionSwatches('Ausrichtung', p.ausrichtung)}
           ${renderOptionSwatches('Seitenanzahl', p.seitenanzahl)}
+          ${renderOptionSwatches('Bedruckung', p.bedruckt)}
           ${renderOptionSwatches('Faltung', p.faltung)}
           ${renderPriceTable(p.priceTable)}
 
