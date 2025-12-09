@@ -617,10 +617,10 @@
             { "name": "White", "hex": "#ffffff" }
           ],
           "priceTable": [
-            { "qty": "1–6", "onePos": "20,99 €", "twoPos": "25,99 €" },
-            { "qty": "7–30", "onePos": "18,99 €", "twoPos": "21,99 €" },
-            { "qty": "31-60", "onePos": "16,99 €", "twoPos": "18,99 €" },
-            { "qty": "> 60", "onePos": "14,99 €", "twoPos": "16,99 €" }
+            { "qty": "1–6", "onePos": "25,99 €", "twoPos": "30,99 €" },
+            { "qty": "7–30", "onePos": "23,99 €", "twoPos": "26,99 €" },
+            { "qty": "31-60", "onePos": "21,99 €", "twoPos": "23,99 €" },
+            { "qty": "> 60", "onePos": "19,99 €", "twoPos": "21,99 €" }
           ],
           "properties": [
             { "label": "Material", "value": "Jersey, 100% Baumwolle (Bio)" },
@@ -646,10 +646,10 @@
             { "name": "White", "hex": "#ffffff" }
           ],
           "priceTable": [
-            { "qty": "1–6", "onePos": "29,99 €", "twoPos": "34,99 €" },
-            { "qty": "7–30", "onePos": "27,99 €", "twoPos": "30,99 €" },
-            { "qty": "31-60", "onePos": "25,99 €", "twoPos": "27,99 €" },
-            { "qty": "> 60", "onePos": "23,99 €", "twoPos": "25,99 €" }
+            { "qty": "1–6", "onePos": "34,99 €", "twoPos": "39,99 €" },
+            { "qty": "7–30", "onePos": "32,99 €", "twoPos": "35,99 €" },
+            { "qty": "31-60", "onePos": "30,99 €", "twoPos": "32,99 €" },
+            { "qty": "> 60", "onePos": "28,99 €", "twoPos": "30,99 €" }
           ],
           "properties": [
             { "label": "Material", "value": "55% Bio-Baumwolle / 20% recycelte Baumwolle / 25% recycelter Polyester" },
@@ -669,10 +669,10 @@
             { "name": "Deep Black", "hex": "#000000" }
           ],
           "priceTable": [
-            { "qty": "1–6", "onePos": "35,99 €", "twoPos": "40,99 €" },
-            { "qty": "7–30", "onePos": "33,99 €", "twoPos": "36,99 €" },
-            { "qty": "31-60", "onePos": "31,99 €", "twoPos": "33,99 €" },
-            { "qty": "> 60", "onePos": "29,99 €", "twoPos": "31,99 €" }
+            { "qty": "1–6", "onePos": "40,99 €", "twoPos": "45,99 €" },
+            { "qty": "7–30", "onePos": "38,99 €", "twoPos": "41,99 €" },
+            { "qty": "31-60", "onePos": "36,99 €", "twoPos": "38,99 €" },
+            { "qty": "> 60", "onePos": "34,99 €", "twoPos": "36,99 €" }
           ],
           "properties": [
             { "label": "Material", "value": "75% Baumwolle (Bio & recycelt) / 25% recycelter Polyester" },
